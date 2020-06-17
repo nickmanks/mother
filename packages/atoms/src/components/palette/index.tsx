@@ -13,6 +13,10 @@ export class AtomPalette implements ComponentInterface {
    * e.g. #912bff
    */
   @Prop() primary: string;
+  /**
+   * The secondary color hex value of the palette
+   * e.g. #912bff
+   */
   @Prop() secondary: string;
 
   render() {
@@ -45,7 +49,9 @@ export class AtomPalette implements ComponentInterface {
             {picks.map(hex => (
               <div>
                 <div style={{ background: palette[hex] }}></div>
-                <span class="subheading">{hex}</span>
+                <span class="subheading">
+                  {hex === 'base' ? 'primary' : hex}
+                </span>
                 <br />
                 <span class="subheading">{palette[hex]}</span>
               </div>

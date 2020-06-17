@@ -1,0 +1,34 @@
+:root {
+  // COLORS
+
+  --atom--color-primary: #720afb;
+  --atom-color-secondary: #b988fd;
+  --atom-color-success: #08c8b8;
+  --atom-color-warning: #fc9b57;
+  --atom-color-danger: #fc4150;
+  --atom-color-info: #098dea;
+  --atom-color-light: #e2dfe6;
+  --atom-color-medium: #a59cb2;
+  --atom-color-dark: #433c4d;
+  --atom-color-grey-light: #f4f5f8;
+  --atom-color-grey-medium: #92949c;
+  --atom-color-grey-dark: #222428;
+
+  // BACKGROUNDS
+
+  --atom-background-color: #fff;
+  --atom-radial-background: radial-gradient(70% 70% at 50% 100%,
+  #e8e8e8 0,
+  #fafafa 100%);
+
+  // FONTS
+
+  --atom-font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
+
+  // SHADOWS
+
+  --atom-small-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+  --atom-medium-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}

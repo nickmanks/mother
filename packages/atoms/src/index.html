@@ -8,10 +8,75 @@
     />
     <title>Stencil Component Starter</title>
 
+    <link rel="stylesheet" href="/build/atoms.css" />
     <script type="module" src="/build/atoms.esm.js"></script>
     <script nomodule src="/build/atoms.js"></script>
+    <style>
+      body {
+        background: var(--atom-radial-background);
+        padding: 2rem;
+        font-family: var(--atom-font-family);
+      }
+
+      .main-heading {
+        font-size: 64px;
+      }
+
+      .input-container {
+        width: 25rem;
+      }
+    </style>
   </head>
   <body>
+    <h1 class="main-heading">Components</h1>
+
+    <h1>Buttons</h1>
+    <div
+      style="display: flex; justify-content: space-between; flex-wrap: wrap;"
+    >
+      <atom-button theme="white">White</atom-button>
+      <atom-button theme="transparent">Transparent</atom-button>
+      <atom-button theme="primary">Primary</atom-button>
+      <atom-button theme="secondary" pill>Secondary Pill</atom-button>
+      <atom-button theme="success">Success</atom-button>
+      <atom-button theme="warning">Warning</atom-button>
+      <atom-button theme="danger">Danger</atom-button>
+      <atom-button theme="info">Info</atom-button>
+    </div>
+
+    <h1>Icons</h1>
+    <atom-icon name="PageLink" theme="primary" size="sml"></atom-icon>
+    <atom-icon name="Search" theme="success" size="md"></atom-icon>
+    <atom-icon name="ProfileSearch" theme="danger" size="lg"></atom-icon>
+    <atom-icon name="ProductVariant" theme="warning" size="xl"></atom-icon>
+
+    <h1>Inputs</h1>
+    <div class="input-container">
+      <atom-input placeholder="Input something" label="Input"></atom-input>
+      <atom-input
+        pre="Search"
+        placeholder="Search something"
+        label="Search"
+      ></atom-input>
+      <atom-input
+        post="DelveAnalytics"
+        placeholder="Look at this"
+        label="Appended Icon"
+      ></atom-input>
+      <atom-input
+        post="Warning12"
+        placeholder="Warning information"
+        label="Warning"
+        theme="warning"
+      ></atom-input>
+      <atom-input
+        pre="CheckMark"
+        label="Success"
+        placeholder="You did the thing"
+        theme="success"
+      ></atom-input>
+    </div>
+
     <atom-palette></atom-palette>
   </body>
 </html>

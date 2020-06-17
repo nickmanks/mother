@@ -7,6 +7,7 @@ import autoprefixer from "autoprefixer";
 export const config: Config = {
   namespace: "atoms",
   bundles: [{ components: ["atom-palette"] }],
+  globalStyle: "src/theme/variables.scss",
   taskQueue: "async",
   outputTargets: [
     {

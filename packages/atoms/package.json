@@ -15,7 +15,8 @@
     "loader/"
   ],
   "dependencies": {
-    "chroma-js": "2.1.0"
+    "chroma-js": "2.1.0",
+    "lodash.uniqueid": "4.0.1"
   },
   "devDependencies": {
     "@babel/core": "7.10.2",

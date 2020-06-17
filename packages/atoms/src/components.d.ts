@@ -6,15 +6,76 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
+    interface AtomButton {
+        /**
+          * True if create a pill button with rounded corners
+         */
+        "pill"?: boolean;
+        /**
+          * The theme color of the button background e.g. primary
+         */
+        "theme"?: "primary" | "secondary" | "warning" | "danger" | "info" | "success" | "transparent" | "white";
+    }
+    interface AtomIcon {
+        "name": string;
+        "size"?: "sml" | "md" | "lg" | "xl";
+        /**
+          * The theme color of the button background e.g. primary
+         */
+        "theme"?: "primary" | "secondary" | "warning" | "danger" | "info" | "success" | "transparent" | "white";
+    }
+    interface AtomInput {
+        /**
+          * A prepended icon
+         */
+        "label"?: string;
+        /**
+          * Placeholder
+         */
+        "placeholder"?: string;
+        /**
+          * An appended icon
+         */
+        "post"?: string;
+        /**
+          * A prepended icon
+         */
+        "pre"?: string;
+        /**
+          * The theme color of the button background e.g. primary
+         */
+        "theme"?: "primary" | "secondary" | "warning" | "danger" | "info" | "success" | "transparent" | "white";
+    }
     interface AtomPalette {
         /**
           * The primary color hex value of the palette e.g. #912bff
          */
         "primary": string;
+        /**
+          * The secondary color hex value of the palette e.g. #912bff
+         */
         "secondary": string;
     }
 }
 declare global {
+    interface HTMLAtomButtonElement extends Components.AtomButton, HTMLStencilElement {
+    }
+    var HTMLAtomButtonElement: {
+        prototype: HTMLAtomButtonElement;
+        new (): HTMLAtomButtonElement;
+    };
+    interface HTMLAtomIconElement extends Components.AtomIcon, HTMLStencilElement {
+    }
+    var HTMLAtomIconElement: {
+        prototype: HTMLAtomIconElement;
+        new (): HTMLAtomIconElement;
+    };
+    interface HTMLAtomInputElement extends Components.AtomInput, HTMLStencilElement {
+    }
+    var HTMLAtomInputElement: {
+        prototype: HTMLAtomInputElement;
+        new (): HTMLAtomInputElement;
+    };
     interface HTMLAtomPaletteElement extends Components.AtomPalette, HTMLStencilElement {
     }
     var HTMLAtomPaletteElement: {
@@ -22,18 +83,67 @@ declare global {
         new (): HTMLAtomPaletteElement;
     };
     interface HTMLElementTagNameMap {
+        "atom-button": HTMLAtomButtonElement;
+        "atom-icon": HTMLAtomIconElement;
+        "atom-input": HTMLAtomInputElement;
         "atom-palette": HTMLAtomPaletteElement;
     }
 }
 declare namespace LocalJSX {
+    interface AtomButton {
+        /**
+          * True if create a pill button with rounded corners
+         */
+        "pill"?: boolean;
+        /**
+          * The theme color of the button background e.g. primary
+         */
+        "theme"?: "primary" | "secondary" | "warning" | "danger" | "info" | "success" | "transparent" | "white";
+    }
+    interface AtomIcon {
+        "name"?: string;
+        "size"?: "sml" | "md" | "lg" | "xl";
+        /**
+          * The theme color of the button background e.g. primary
+         */
+        "theme"?: "primary" | "secondary" | "warning" | "danger" | "info" | "success" | "transparent" | "white";
+    }
+    interface AtomInput {
+        /**
+          * A prepended icon
+         */
+        "label"?: string;
+        /**
+          * Placeholder
+         */
+        "placeholder"?: string;
+        /**
+          * An appended icon
+         */
+        "post"?: string;
+        /**
+          * A prepended icon
+         */
+        "pre"?: string;
+        /**
+          * The theme color of the button background e.g. primary
+         */
+        "theme"?: "primary" | "secondary" | "warning" | "danger" | "info" | "success" | "transparent" | "white";
+    }
     interface AtomPalette {
         /**
           * The primary color hex value of the palette e.g. #912bff
          */
         "primary"?: string;
+        /**
+          * The secondary color hex value of the palette e.g. #912bff
+         */
         "secondary"?: string;
     }
     interface IntrinsicElements {
+        "atom-button": AtomButton;
+        "atom-icon": AtomIcon;
+        "atom-input": AtomInput;
         "atom-palette": AtomPalette;
     }
 }
@@ -41,6 +151,9 @@ export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
+            "atom-button": LocalJSX.AtomButton & JSXBase.HTMLAttributes<HTMLAtomButtonElement>;
+            "atom-icon": LocalJSX.AtomIcon & JSXBase.HTMLAttributes<HTMLAtomIconElement>;
+            "atom-input": LocalJSX.AtomInput & JSXBase.HTMLAttributes<HTMLAtomInputElement>;
             "atom-palette": LocalJSX.AtomPalette & JSXBase.HTMLAttributes<HTMLAtomPaletteElement>;
         }
     }
