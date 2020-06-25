@@ -16,9 +16,17 @@ export namespace Components {
          */
         "theme"?: "primary" | "secondary" | "warning" | "danger" | "info" | "success" | "transparent" | "white";
     }
+    interface AtomCheckbox {
+        /**
+          * The theme color of the button background e.g. primary
+         */
+        "theme"?: "primary" | "secondary" | "warning" | "danger" | "info" | "success" | "transparent" | "white";
+    }
+    interface AtomCollapse {
+    }
     interface AtomIcon {
         "name": string;
-        "size"?: "sml" | "md" | "lg" | "xl";
+        "size"?: "xs" | "sml" | "md" | "lg" | "xl";
         /**
           * The theme color of the button background e.g. primary
          */
@@ -46,6 +54,8 @@ export namespace Components {
          */
         "theme"?: "primary" | "secondary" | "warning" | "danger" | "info" | "success" | "transparent" | "white";
     }
+    interface AtomModal {
+    }
     interface AtomPalette {
         /**
           * The primary color hex value of the palette e.g. #912bff
@@ -56,6 +66,14 @@ export namespace Components {
          */
         "secondary": string;
     }
+    interface AtomRadio {
+        /**
+          * The theme color of the button background e.g. primary
+         */
+        "theme"?: "primary" | "secondary" | "warning" | "danger" | "info" | "success" | "transparent" | "white";
+    }
+    interface AtomSyntax {
+    }
 }
 declare global {
     interface HTMLAtomButtonElement extends Components.AtomButton, HTMLStencilElement {
@@ -63,6 +81,18 @@ declare global {
     var HTMLAtomButtonElement: {
         prototype: HTMLAtomButtonElement;
         new (): HTMLAtomButtonElement;
+    };
+    interface HTMLAtomCheckboxElement extends Components.AtomCheckbox, HTMLStencilElement {
+    }
+    var HTMLAtomCheckboxElement: {
+        prototype: HTMLAtomCheckboxElement;
+        new (): HTMLAtomCheckboxElement;
+    };
+    interface HTMLAtomCollapseElement extends Components.AtomCollapse, HTMLStencilElement {
+    }
+    var HTMLAtomCollapseElement: {
+        prototype: HTMLAtomCollapseElement;
+        new (): HTMLAtomCollapseElement;
     };
     interface HTMLAtomIconElement extends Components.AtomIcon, HTMLStencilElement {
     }
@@ -76,17 +106,40 @@ declare global {
         prototype: HTMLAtomInputElement;
         new (): HTMLAtomInputElement;
     };
+    interface HTMLAtomModalElement extends Components.AtomModal, HTMLStencilElement {
+    }
+    var HTMLAtomModalElement: {
+        prototype: HTMLAtomModalElement;
+        new (): HTMLAtomModalElement;
+    };
     interface HTMLAtomPaletteElement extends Components.AtomPalette, HTMLStencilElement {
     }
     var HTMLAtomPaletteElement: {
         prototype: HTMLAtomPaletteElement;
         new (): HTMLAtomPaletteElement;
     };
+    interface HTMLAtomRadioElement extends Components.AtomRadio, HTMLStencilElement {
+    }
+    var HTMLAtomRadioElement: {
+        prototype: HTMLAtomRadioElement;
+        new (): HTMLAtomRadioElement;
+    };
+    interface HTMLAtomSyntaxElement extends Components.AtomSyntax, HTMLStencilElement {
+    }
+    var HTMLAtomSyntaxElement: {
+        prototype: HTMLAtomSyntaxElement;
+        new (): HTMLAtomSyntaxElement;
+    };
     interface HTMLElementTagNameMap {
         "atom-button": HTMLAtomButtonElement;
+        "atom-checkbox": HTMLAtomCheckboxElement;
+        "atom-collapse": HTMLAtomCollapseElement;
         "atom-icon": HTMLAtomIconElement;
         "atom-input": HTMLAtomInputElement;
+        "atom-modal": HTMLAtomModalElement;
         "atom-palette": HTMLAtomPaletteElement;
+        "atom-radio": HTMLAtomRadioElement;
+        "atom-syntax": HTMLAtomSyntaxElement;
     }
 }
 declare namespace LocalJSX {
@@ -100,9 +153,17 @@ declare namespace LocalJSX {
          */
         "theme"?: "primary" | "secondary" | "warning" | "danger" | "info" | "success" | "transparent" | "white";
     }
+    interface AtomCheckbox {
+        /**
+          * The theme color of the button background e.g. primary
+         */
+        "theme"?: "primary" | "secondary" | "warning" | "danger" | "info" | "success" | "transparent" | "white";
+    }
+    interface AtomCollapse {
+    }
     interface AtomIcon {
         "name"?: string;
-        "size"?: "sml" | "md" | "lg" | "xl";
+        "size"?: "xs" | "sml" | "md" | "lg" | "xl";
         /**
           * The theme color of the button background e.g. primary
          */
@@ -130,6 +191,8 @@ declare namespace LocalJSX {
          */
         "theme"?: "primary" | "secondary" | "warning" | "danger" | "info" | "success" | "transparent" | "white";
     }
+    interface AtomModal {
+    }
     interface AtomPalette {
         /**
           * The primary color hex value of the palette e.g. #912bff
@@ -140,11 +203,24 @@ declare namespace LocalJSX {
          */
         "secondary"?: string;
     }
+    interface AtomRadio {
+        /**
+          * The theme color of the button background e.g. primary
+         */
+        "theme"?: "primary" | "secondary" | "warning" | "danger" | "info" | "success" | "transparent" | "white";
+    }
+    interface AtomSyntax {
+    }
     interface IntrinsicElements {
         "atom-button": AtomButton;
+        "atom-checkbox": AtomCheckbox;
+        "atom-collapse": AtomCollapse;
         "atom-icon": AtomIcon;
         "atom-input": AtomInput;
+        "atom-modal": AtomModal;
         "atom-palette": AtomPalette;
+        "atom-radio": AtomRadio;
+        "atom-syntax": AtomSyntax;
     }
 }
 export { LocalJSX as JSX };
@@ -152,9 +228,14 @@ declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
             "atom-button": LocalJSX.AtomButton & JSXBase.HTMLAttributes<HTMLAtomButtonElement>;
+            "atom-checkbox": LocalJSX.AtomCheckbox & JSXBase.HTMLAttributes<HTMLAtomCheckboxElement>;
+            "atom-collapse": LocalJSX.AtomCollapse & JSXBase.HTMLAttributes<HTMLAtomCollapseElement>;
             "atom-icon": LocalJSX.AtomIcon & JSXBase.HTMLAttributes<HTMLAtomIconElement>;
             "atom-input": LocalJSX.AtomInput & JSXBase.HTMLAttributes<HTMLAtomInputElement>;
+            "atom-modal": LocalJSX.AtomModal & JSXBase.HTMLAttributes<HTMLAtomModalElement>;
             "atom-palette": LocalJSX.AtomPalette & JSXBase.HTMLAttributes<HTMLAtomPaletteElement>;
+            "atom-radio": LocalJSX.AtomRadio & JSXBase.HTMLAttributes<HTMLAtomRadioElement>;
+            "atom-syntax": LocalJSX.AtomSyntax & JSXBase.HTMLAttributes<HTMLAtomSyntaxElement>;
         }
     }
 }

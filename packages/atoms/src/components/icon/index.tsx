@@ -22,7 +22,7 @@ export class AtomIcon implements ComponentInterface {
 
   @Prop() name: string;
 
-  @Prop() size?: "sml" | "md" | "lg" | "xl";
+  @Prop() size?: "xs" | "sml" | "md" | "lg" | "xl";
 
   render() {
     return (

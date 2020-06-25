@@ -1,0 +1,151 @@
+@import "../../theme/default";
+
+:host {
+  font-family: var(--atom-font-family);
+}
+
+// Helper theme mixin
+// @param $name: name of the theme (HTML class)
+// @param $color: color of the theme
+@mixin theme($name, $hex) {
+  [data-theme="#{$name}"] {
+    span {
+      border: 1px solid $hex;
+
+      &:before {
+        background: lighten($hex, 10);
+      }
+      &:after {
+        background: lighten($hex, 10);
+      }
+    }
+  }
+
+  [data-theme="#{$name}"] {
+    &:checked {
+      + label {
+        span {
+          &:before {
+            background: $hex !important;
+          }
+          &:after {
+            background: $hex !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Including themes
+// By looping through the $themes map
+@each $key, $value in $colors {
+  @include theme($key, $value);
+}
+
+label {
+  display: inline-block;
+  color: $dark;
+  cursor: pointer;
+  position: relative;
+  font-family: var(--atom-font-family);
+
+  span {
+    display: inline-block;
+    position: relative;
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+    transform-origin: center;
+    border: 1px solid $primary;
+    border-radius: 5px;
+    vertical-align: -6px;
+    margin-right: 10px;
+    transition: background-color 150ms 200ms,
+      transform 350ms cubic-bezier(0.78, -1.22, 0.17, 1.89);
+
+    &:before {
+      content: "";
+      width: 0px;
+      height: 2px;
+      background: $secondary;
+      position: absolute;
+      transform: rotate(45deg);
+      top: 12px;
+      left: 9px;
+      transition: width 50ms ease 50ms;
+      transform-origin: 0% 0%;
+    }
+
+    &:after {
+      content: "";
+      width: 0;
+      height: 2px;
+      background: $secondary;
+      position: absolute;
+      transform: rotate(310deg);
+      top: 16px;
+      left: 10px;
+      transition: width 50ms ease;
+      transform-origin: 0% 0%;
+    }
+  }
+
+  &:hover {
+    span {
+      &:before {
+        width: 5px;
+        transition: width 100ms ease;
+      }
+
+      &:after {
+        width: 10px;
+        transition: width 150ms ease 100ms;
+      }
+    }
+  }
+}
+
+input[type="checkbox"] {
+  display: none;
+
+  &:checked {
+    + label {
+      span {
+        background-color: #fff;
+        transform: scale(1.15);
+
+        &:after {
+          width: 10px;
+          background: $primary;
+          transition: width 150ms ease 100ms;
+        }
+
+        &:before {
+          width: 5px;
+          background: $primary;
+          transition: width 150ms ease 100ms;
+        }
+      }
+
+      &:hover {
+        span {
+          background-color: #fff;
+          transform: scale(1.15);
+
+          &:after {
+            width: 10px;
+            background: $primary;
+            transition: width 150ms ease 100ms;
+          }
+
+          &:before {
+            width: 5px;
+            background: $primary;
+            transition: width 150ms ease 100ms;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,85 @@
+@import "../../theme/default";
+
+// Helper theme mixin
+// @param $name: name of the theme (HTML class)
+// @param $color: color of the theme
+@mixin theme($name, $hex) {
+  [data-theme="#{$name}"] {
+    input:checked + .outer {
+      border: 1px solid $hex !important;
+    }
+
+    .outer {
+      border: 1px solid $hex !important;
+    }
+
+    .inner {
+      background-color: $hex !important;
+    }
+  }
+}
+
+// Including themes
+// By looping through the $themes map
+@each $key, $value in $colors {
+  @include theme($key, $value);
+}
+
+.radio {
+  display: block;
+  font-size: 1rem;
+  line-height: 3rem;
+  cursor: pointer;
+  font-family: var(--atom-font-family);
+  color: $dark;
+}
+
+.radio:hover .inner {
+  transform: scale(0.5);
+  opacity: 0.5;
+}
+
+.radio input {
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+.radio input:checked + .outer .inner {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.radio input:checked + .outer {
+  border: 1px solid $primary;
+  background-color: #fff;
+}
+
+.radio input:focus + .outer .inner {
+  transform: scale(1);
+  opacity: 1;
+  background-color: $primary;
+}
+
+.radio .outer {
+  width: 1.4rem;
+  height: 1.4rem;
+  display: block;
+  float: left;
+  margin: 12px 0px 10px 0;
+  border: 1px solid $primary;
+  border-radius: 50%;
+  background-color: transparent;
+}
+
+.radio .inner {
+  transition: all 0.25s ease-in-out;
+  width: 1rem;
+  height: 1rem;
+  transform: scale(0);
+  display: block;
+  margin: 3px;
+  border-radius: 50%;
+  background-color: $primary;
+  opacity: 0;
+}

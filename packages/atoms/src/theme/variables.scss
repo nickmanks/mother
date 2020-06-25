@@ -1,7 +1,7 @@
 :root {
   // COLORS
 
-  --atom--color-primary: #720afb;
+  --atom-color-primary: #720afb;
   --atom-color-secondary: #b988fd;
   --atom-color-success: #08c8b8;
   --atom-color-warning: #fc9b57;
@@ -17,15 +17,17 @@
   // BACKGROUNDS
 
   --atom-background-color: #fff;
-  --atom-radial-background: radial-gradient(70% 70% at 50% 100%,
-  #e8e8e8 0,
-  #fafafa 100%);
+  --atom-radial-background: radial-gradient(
+    70% 70% at 50% 100%,
+    #e8e8e8 0,
+    #fafafa 100%
+  );
 
   // FONTS
 
-  --atom-font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
-    'Helvetica Neue', sans-serif;
+  --atom-font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
 
   // SHADOWS
 

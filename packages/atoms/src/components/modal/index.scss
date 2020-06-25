@@ -1,0 +1,85 @@
+@import "../../theme/default";
+
+.modal {
+  background-color: transparent;
+  bottom: 0;
+  visibility: hidden;
+  left: 0;
+  overflow: auto;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 99;
+  transition: visibility 0s, background-color 0.4s linear;
+
+  .modal-dialog {
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    top: 35%;
+    transition: all 0.5s ease;
+    width: 60%;
+    max-width: 45rem;
+    border-radius: 5px;
+
+    .modal-header {
+      background: $light;
+      font-size: 18px;
+      padding: 1rem;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
+
+      h4 {
+        margin: 0;
+        padding: 0;
+      }
+    }
+
+    .modal-body {
+      background: #fff;
+      padding: 2rem;
+      border-bottom-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+
+      p {
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+
+  &.show {
+    background-color: #484848b3;
+    visibility: visible;
+    .modal-dialog {
+      animation: modal-expand-vert-animation 0.6s ease;
+    }
+  }
+
+  &.hide {
+    background-color: transparent;
+    visibility: hidden;
+    .modal-dialog {
+      animation: modal-expand-vert-animation-out 0.6s ease;
+    }
+  }
+}
+
+@keyframes modal-expand-vert-animation {
+  from {
+    transform: rotateX(90deg);
+  }
+  to {
+    transform: rotateX(0deg);
+  }
+}
+
+@keyframes modal-expand-vert-animation-out {
+  from {
+    transform: rotateX(0deg);
+  }
+  to {
+    transform: rotateX(90deg);
+  }
+}

@@ -1,0 +1,36 @@
+@import "~prismjs/themes/prism-coy.css";
+@import "../../theme/default";
+
+.container {
+  border-radius: 5px;
+  background: white;
+}
+
+.element {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background: $light;
+  padding: 1rem;
+  border-radius: 5px;
+  font-weight: 200;
+}
+
+.token {
+  font-weight: 500;
+}
+
+.tag {
+  color: $primary !important;
+}
+
+.attr-name {
+  color: $danger !important;
+}
+
+.attr-value {
+  color: $dark !important;
+}
+
+.punctuation {
+  color: $primary !important;
+}

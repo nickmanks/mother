@@ -22,8 +22,32 @@
         font-size: 64px;
       }
 
+      .buttons-container {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        width: 40rem;
+        height: 20rem;
+      }
+
       .input-container {
         width: 25rem;
+      }
+
+      .details-container {
+        width: 40rem;
+        cursor: pointer;
+      }
+
+      .details {
+        display: flex;
+        color: var(--atom-color-medium);
+        font-weight: 200;
+        margin-left: -7px;
+      }
+
+      .checkbox-container {
+        margin-bottom: 1rem;
       }
     </style>
   </head>
@@ -31,9 +55,7 @@
     <h1 class="main-heading">Components</h1>
 
     <h1>Buttons</h1>
-    <div
-      style="display: flex; justify-content: space-between; flex-wrap: wrap;"
-    >
+    <div class="buttons-container">
       <atom-button theme="white">White</atom-button>
       <atom-button theme="transparent">Transparent</atom-button>
       <atom-button theme="primary">Primary</atom-button>
@@ -43,12 +65,58 @@
       <atom-button theme="danger">Danger</atom-button>
       <atom-button theme="info">Info</atom-button>
     </div>
+    <div class="details-container">
+      <atom-collapse>
+        <div slot="header" class="details">
+          <atom-icon
+            name="ChevronRightMed"
+            theme="medium"
+            size="xs"
+          ></atom-icon>
+          <p>Code Examples</p>
+        </div>
+        <atom-syntax slot="content">
+          <atom-button theme="white">White</atom-button>
+          <atom-button theme="transparent">Transparent</atom-button>
+          <atom-button theme="primary">Primary</atom-button>
+          <atom-button theme="secondary" pill>Secondary Pill</atom-button>
+          <atom-button theme="success">Success</atom-button>
+          <atom-button theme="warning">Warning</atom-button>
+          <atom-button theme="danger">Danger</atom-button>
+          <atom-button theme="info">Info</atom-button>
+        </atom-syntax>
+      </atom-collapse>
+    </div>
 
     <h1>Icons</h1>
+    <atom-icon name="ChevronUpMed" theme="info" size="xs"></atom-icon>
     <atom-icon name="PageLink" theme="primary" size="sml"></atom-icon>
     <atom-icon name="Search" theme="success" size="md"></atom-icon>
     <atom-icon name="ProfileSearch" theme="danger" size="lg"></atom-icon>
     <atom-icon name="ProductVariant" theme="warning" size="xl"></atom-icon>
+    <div class="details-container">
+      <atom-collapse>
+        <div slot="header" class="details">
+          <atom-icon
+            name="ChevronRightMed"
+            theme="medium"
+            size="xs"
+          ></atom-icon>
+          <p>Code Examples</p>
+        </div>
+        <atom-syntax slot="content">
+          <atom-icon name="ChevronRightMed" theme="info" size="xs"></atom-icon>
+          <atom-icon name="PageLink" theme="primary" size="sml"></atom-icon>
+          <atom-icon name="Search" theme="success" size="md"></atom-icon>
+          <atom-icon name="ProfileSearch" theme="danger" size="lg"></atom-icon>
+          <atom-icon
+            name="ProductVariant"
+            theme="warning"
+            size="xl"
+          ></atom-icon>
+        </atom-syntax>
+      </atom-collapse>
+    </div>
 
     <h1>Inputs</h1>
     <div class="input-container">
@@ -76,6 +144,112 @@
         theme="success"
       ></atom-input>
     </div>
+    <div class="details-container">
+      <atom-collapse>
+        <div slot="header" class="details">
+          <atom-icon
+            name="ChevronRightMed"
+            theme="medium"
+            size="xs"
+          ></atom-icon>
+          <p>Code Examples</p>
+        </div>
+        <atom-syntax slot="content">
+          <atom-input placeholder="Input something" label="Input"></atom-input>
+          <atom-input
+            pre="Search"
+            placeholder="Search something"
+            label="Search"
+          ></atom-input>
+          <atom-input
+            post="DelveAnalytics"
+            placeholder="Look at this"
+            label="Appended Icon"
+          ></atom-input>
+          <atom-input
+            post="Warning12"
+            placeholder="Warning information"
+            label="Warning"
+            theme="warning"
+          ></atom-input>
+          <atom-input
+            pre="CheckMark"
+            label="Success"
+            placeholder="You did the thing"
+            theme="success"
+          ></atom-input>
+        </atom-syntax>
+      </atom-collapse>
+    </div>
+
+    <h1 slot="header">Syntax Highlighting</h1>
+    <div class="details-container">
+      <atom-syntax slot="content">
+        <atom-input placeholder="Input something" label="Input"></atom-input>
+      </atom-syntax>
+    </div>
+    <div class="details-container">
+      <atom-collapse>
+        <div slot="header" class="details">
+          <atom-icon
+            name="ChevronRightMed"
+            theme="medium"
+            size="xs"
+          ></atom-icon>
+          <p>Code Examples</p>
+        </div>
+        <atom-syntax slot="content">
+          <atom-syntax slot="content">
+            <atom-input
+              placeholder="Input something"
+              label="Input"
+            ></atom-input>
+          </atom-syntax>
+        </atom-syntax>
+      </atom-collapse>
+    </div>
+
+    <h1 slot="header">Checkbox</h1>
+    <div>
+      <div class="checkbox-container">
+        <atom-checkbox>Checkbox</atom-checkbox>
+      </div>
+      <div class="checkbox-container">
+        <atom-checkbox theme="success">Success</atom-checkbox>
+      </div>
+      <div class="checkbox-container">
+        <atom-checkbox theme="danger">Danger</atom-checkbox>
+      </div>
+    </div>
+    <div class="details-container">
+      <atom-collapse>
+        <div slot="header" class="details">
+          <atom-icon
+            name="ChevronRightMed"
+            theme="medium"
+            size="xs"
+          ></atom-icon>
+          <p>Code Examples</p>
+        </div>
+        <atom-syntax slot="content">
+          <atom-checkbox>Checkbox</atom-checkbox>
+          <atom-checkbox theme="success">Success</atom-checkbox>
+          <atom-checkbox theme="danger">Danger</atom-checkbox>
+        </atom-syntax>
+      </atom-collapse>
+    </div>
+
+    <h1 slot="header">Radio</h1>
+    <div>
+      <form>
+        <atom-radio theme="primary">Radio</atom-radio>
+        <atom-radio theme="success">Success</atom-radio>
+        <atom-radio theme="danger">Danger</atom-radio>
+      </form>
+    </div>
+
+    <h1 slot="header">Modal</h1>
+    <atom-modal></atom-modal>
 
     <atom-palette></atom-palette>
   </body>
