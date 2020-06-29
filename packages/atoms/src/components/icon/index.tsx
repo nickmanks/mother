@@ -18,6 +18,7 @@ export class AtomIcon implements ComponentInterface {
     | "info"
     | "success"
     | "transparent"
+    | "dark"
     | "white" = "primary";
 
   @Prop() name: string;

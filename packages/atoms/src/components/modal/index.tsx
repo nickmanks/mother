@@ -22,28 +22,68 @@ export class AtomModal implements ComponentInterface {
             show: this.open,
             hide: !this.open,
           }}
-          onClick={this.handleClick.bind(this)}
         >
           <div class="modal-dialog">
             <div class="modal-header">
-              <h4>Dear reader,</h4>
+              <atom-icon
+                name="ProfileSearch"
+                theme="primary"
+                size="md"
+              ></atom-icon>
+              <p>Select the thing now</p>
+              <div
+                class="modal-header-close"
+                onClick={this.handleClick.bind(this)}
+              >
+                <atom-icon name="Cancel" theme="dark" size="sml"></atom-icon>
+              </div>
             </div>
             <div class="modal-body">
-              <p>
-                This is a modal window. You can do the following things with it:
-              </p>
-              <ul>
-                <li>
-                  <strong>Read</strong>: modal windows will probably tell you
-                  something important so don't forget to read what they say.
-                </li>
-                <li>
-                  <strong>Look</strong>: a modal window enjoys a certain kind of
-                  attention; just look at it and appreciate its presence.
-                </li>
-              </ul>
+              <atom-input
+                post="DelveAnalytics"
+                placeholder="Look at this"
+                label="Appended Icon"
+              ></atom-input>
+              <atom-input
+                pre="Search"
+                placeholder="Search something"
+                label="Search"
+              ></atom-input>
+              <atom-input
+                pre="CheckMark"
+                label="Success"
+                placeholder="You did the thing"
+                theme="success"
+              ></atom-input>
 
-              <small>Click anywhere to close</small>
+              <div style={{ paddingTop: "2rem" }}>
+                <atom-checkbox>Checkbox</atom-checkbox>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <div
+                style={{
+                  display: "flex",
+                  textAlign: "right",
+                  justifyContent: "flex-end",
+                }}
+              >
+                <atom-button
+                  onClick={this.handleClick.bind(this)}
+                  theme="transparent"
+                  pill
+                >
+                  Secondary Click
+                </atom-button>
+                <atom-button
+                  style={{ marginRight: "0" }}
+                  onClick={this.handleClick.bind(this)}
+                  theme="primary"
+                  pill
+                >
+                  Primary Click
+                </atom-button>
+              </div>
             </div>
           </div>
         </div>

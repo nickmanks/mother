@@ -49,6 +49,10 @@
       .checkbox-container {
         margin-bottom: 1rem;
       }
+
+      .radio-container {
+        display: block;
+      }
     </style>
   </head>
   <body>
@@ -242,9 +246,15 @@
     <h1 slot="header">Radio</h1>
     <div>
       <form>
-        <atom-radio theme="primary">Radio</atom-radio>
-        <atom-radio theme="success">Success</atom-radio>
-        <atom-radio theme="danger">Danger</atom-radio>
+        <div class="radio-container">
+          <atom-radio theme="primary">Radio</atom-radio>
+        </div>
+        <div class="radio-container">
+          <atom-radio theme="success">Success</atom-radio>
+        </div>
+        <div class="radio-container">
+          <atom-radio theme="danger">Danger</atom-radio>
+        </div>
       </form>
     </div>
 

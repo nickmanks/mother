@@ -1,0 +1,80 @@
+import { Meta, ColorPalette, ColorItem } from '@storybook/addon-docs/blocks';
+import {
+    variants,
+    grey01,
+    grey02,
+    grey03,
+    grey04,
+    grey05,
+    grey06,
+    grey07,
+    grey08,
+    grey09,
+    grey10,
+} from './colors';
+
+<Meta title="Design System/Colors" />
+
+# Colors
+
+<ColorPalette>
+    <ColorItem
+        title="Primary"
+        subtitle="variants.primary.color"
+        colors={[variants.primary.color]}
+    />
+    <ColorItem
+        title="Secondary"
+        subtitle="variants.secondary.color"
+        colors={[variants.secondary.color]}
+    />
+    <ColorItem
+        title="Success"
+        subtitle="variants.success.color"
+        colors={[variants.success.color]}
+    />
+    <ColorItem
+        title="Warning"
+        subtitle="variants.warning.color"
+        colors={[variants.warning.color]}
+    />
+    <ColorItem
+        title="Danger"
+        subtitle="variants.danger.color"
+        colors={[variants.danger.color]}
+    />
+    <ColorItem
+        title="Info"
+        subtitle="variants.info.color"
+        colors={[variants.info.color]}
+    />
+    <ColorItem
+        title="Light"
+        subtitle="variants.light.color"
+        colors={[variants.light.color]}
+    />
+    <ColorItem
+        title="Medium"
+        subtitle="variants.medium.color"
+        colors={[variants.medium.color]}
+    />
+    <ColorItem
+        title="Dark"
+        subtitle="variants.dark.color"
+        colors={[variants.dark.color]}
+    />
+</ColorPalette>
+
+# Greys
+
+<ColorPalette>
+    <ColorItem title="Grey 01" subtitle="theme.grey01" colors={[grey01]} />
+    <ColorItem title="Grey 02" subtitle="theme.grey02" colors={[grey02]} />
+    <ColorItem title="Grey 03" subtitle="theme.grey03" colors={[grey03]} />
+    <ColorItem title="Grey 04" subtitle="theme.grey04" colors={[grey04]} />
+    <ColorItem title="Grey 05" subtitle="theme.grey05" colors={[grey05]} />
+    <ColorItem title="Grey 06" subtitle="theme.grey06" colors={[grey06]} />
+    <ColorItem title="Grey 07" subtitle="theme.grey07" colors={[grey07]} />
+    <ColorItem title="Grey 08" subtitle="theme.grey08" colors={[grey08]} />
+    <ColorItem title="Grey 09" subtitle="theme.grey09" colors={[grey09]} />
+</ColorPalette>

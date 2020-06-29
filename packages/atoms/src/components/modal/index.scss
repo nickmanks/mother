@@ -10,50 +10,73 @@
   right: 0;
   top: 0;
   z-index: 99;
-  transition: visibility 0s, background-color 0.4s linear;
+  transition: visibility 0s, background-color 0.3s linear;
 
   .modal-dialog {
     left: 0;
     right: 0;
+    top: 0;
+    bottom: 0;
     margin: auto;
     position: absolute;
-    top: 35%;
-    transition: all 0.5s ease;
-    width: 60%;
-    max-width: 45rem;
+    transition: all 0.2s ease;
+    width: 38rem;
     border-radius: 5px;
+    height: auto;
+    max-height: 80vh;
 
     .modal-header {
+      position: relative;
       background: $light;
-      font-size: 18px;
+      font-size: 17px;
+      font-weight: 300;
+      font-family: var(--atom-font-family);
       padding: 1rem;
       border-top-right-radius: 5px;
       border-top-left-radius: 5px;
+      display: flex;
+      padding-top: 0;
+      padding-bottom: 0;
 
-      h4 {
-        margin: 0;
-        padding: 0;
+      p {
+        margin-top: 22px;
+      }
+
+      .modal-header-close {
+        position: absolute;
+        right: 14px;
+        cursor: pointer;
+        margin-top: 6px;
       }
     }
 
     .modal-body {
       background: #fff;
+      padding: 5rem;
+      padding-bottom: 0;
+      padding-top: 2.5rem;
+    }
+
+    .modal-footer {
       padding: 2rem;
+      text-align: right;
+      background: white;
       border-bottom-right-radius: 5px;
       border-bottom-left-radius: 5px;
-
-      p {
-        margin: 0;
-        padding: 0;
-      }
+      transition: visibility 0s;
+      visibility: hidden;
     }
   }
 
   &.show {
-    background-color: #484848b3;
+    background-color: #292929c7;
     visibility: visible;
     .modal-dialog {
-      animation: modal-expand-vert-animation 0.6s ease;
+      animation: modal-expand-vert-animation 0.3s ease;
+
+      .modal-footer {
+        visibility: visible;
+      }
     }
   }
 
@@ -61,7 +84,7 @@
     background-color: transparent;
     visibility: hidden;
     .modal-dialog {
-      animation: modal-expand-vert-animation-out 0.6s ease;
+      animation: modal-expand-vert-animation-out 0.2s ease;
     }
   }
 }

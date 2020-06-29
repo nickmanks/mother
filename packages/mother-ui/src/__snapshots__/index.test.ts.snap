@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Atoms/Button All 1`] = `
+<div
+  className="sc-AxirZ jOYUeK"
+>
+  <button
+    className="sc-AxjAm hlxnqx"
+  >
+    Primary
+  </button>
+  <button
+    className="sc-AxjAm dDGsF"
+  >
+    Secondary
+  </button>
+  <button
+    className="sc-AxjAm lponyx"
+  >
+    Success
+  </button>
+  <button
+    className="sc-AxjAm bPSkEV"
+  >
+    Warning
+  </button>
+  <button
+    className="sc-AxjAm VxfQp"
+  >
+    Danger
+  </button>
+  <button
+    className="sc-AxjAm cmTyxB"
+  >
+    Info
+  </button>
+  <button
+    className="sc-AxjAm GZjDD"
+  >
+    White
+  </button>
+  <button
+    className="sc-AxjAm bWOiLA"
+  >
+    Transparent
+  </button>
+</div>
+`;
+
+exports[`Storyshots Atoms/Button Disabled 1`] = `
+<button
+  className="sc-AxjAm hlxnqx"
+  disabled={true}
+>
+  Disabled
+</button>
+`;
+
+exports[`Storyshots Atoms/Button Rounded 1`] = `
+<button
+  className="sc-AxjAm gGqGIR"
+>
+  Pill shaped
+</button>
+`;

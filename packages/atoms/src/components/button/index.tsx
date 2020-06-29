@@ -18,6 +18,7 @@ export class AtomButton implements ComponentInterface {
     | "info"
     | "success"
     | "transparent"
+    | "light"
     | "white" = "primary";
 
   /**

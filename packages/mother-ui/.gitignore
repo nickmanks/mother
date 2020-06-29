@@ -1,0 +1,26 @@
+
+# 3rd party modules
+node_modules
+
+# build output
+dist
+
+# misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.rpt2_cache
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ide
+.idea
+.vscode
+
+# coverage
+.cov

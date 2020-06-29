@@ -1,0 +1,65 @@
+import { Meta, Typeset } from '@storybook/addon-docs/blocks';
+
+import { fonts, fontFamily, fontHero } from './fonts';
+
+<Meta title="Design System/Typography" />
+
+# Typography
+
+**Font:** Euclid Circular A
+
+**Fallback:** Inter, Roboto
+
+**Weights:** 200(light), 300(regular), 500(bold), 600(extrabold), 800(black)
+
+**Page**: https://fonts.google.com/specimen/Inter
+
+```
+https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap
+```
+
+## Sizes
+
+<Typeset
+    fontFamily={fontFamily}
+    fontSizes={[
+        Number(fonts.size.s1),
+        Number(fonts.size.s2),
+        Number(fonts.size.s3),
+        Number(fonts.size.m1),
+        Number(fonts.size.m2),
+        Number(fonts.size.m3),
+        Number(fonts.size.l1),
+        Number(fonts.size.l2),
+        Number(fonts.size.l3),
+    ]}
+    fontWeight={fonts.weight.regular}
+/>
+
+## Weights
+
+<Typeset
+    fontFamily={fontFamily}
+    fontSizes={[Number(fonts.size.m2)]}
+    fontWeight={fonts.weight.light}
+/>
+<Typeset
+    fontFamily={fontFamily}
+    fontSizes={[Number(fonts.size.m2)]}
+    fontWeight={fonts.weight.regular}
+/>
+<Typeset
+    fontFamily={fontFamily}
+    fontSizes={[Number(fonts.size.m2)]}
+    fontWeight={fonts.weight.bold}
+/>
+<Typeset
+    fontFamily={fontFamily}
+    fontSizes={[Number(fonts.size.m2)]}
+    fontWeight={fonts.weight.extrabold}
+/>
+<Typeset
+    fontFamily={fontFamily}
+    fontSizes={[Number(fonts.size.m2)]}
+    fontWeight={fonts.weight.black}
+/>

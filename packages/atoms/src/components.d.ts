@@ -14,7 +14,7 @@ export namespace Components {
         /**
           * The theme color of the button background e.g. primary
          */
-        "theme"?: "primary" | "secondary" | "warning" | "danger" | "info" | "success" | "transparent" | "white";
+        "theme"?: "primary" | "secondary" | "warning" | "danger" | "info" | "success" | "transparent" | "light" | "white";
     }
     interface AtomCheckbox {
         /**
@@ -30,7 +30,7 @@ export namespace Components {
         /**
           * The theme color of the button background e.g. primary
          */
-        "theme"?: "primary" | "secondary" | "warning" | "danger" | "info" | "success" | "transparent" | "white";
+        "theme"?: "primary" | "secondary" | "warning" | "danger" | "info" | "success" | "transparent" | "dark" | "white";
     }
     interface AtomInput {
         /**
@@ -151,7 +151,7 @@ declare namespace LocalJSX {
         /**
           * The theme color of the button background e.g. primary
          */
-        "theme"?: "primary" | "secondary" | "warning" | "danger" | "info" | "success" | "transparent" | "white";
+        "theme"?: "primary" | "secondary" | "warning" | "danger" | "info" | "success" | "transparent" | "light" | "white";
     }
     interface AtomCheckbox {
         /**
@@ -167,7 +167,7 @@ declare namespace LocalJSX {
         /**
           * The theme color of the button background e.g. primary
          */
-        "theme"?: "primary" | "secondary" | "warning" | "danger" | "info" | "success" | "transparent" | "white";
+        "theme"?: "primary" | "secondary" | "warning" | "danger" | "info" | "success" | "transparent" | "dark" | "white";
     }
     interface AtomInput {
         /**

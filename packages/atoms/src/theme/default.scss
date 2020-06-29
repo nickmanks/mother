@@ -26,6 +26,8 @@ $colors: (
   warning: #fc9b57,
   danger: #fc4150,
   info: #098dea,
+  light: #e2dfe6,
+  dark: #433c4d,
 ) !default;
 
 // Default Foreground and Background Colors
@@ -38,10 +40,14 @@ $background-color-rgb-value: 255, 255, 255 !default;
 $text-color-value: #000 !default;
 $text-color-rgb-value: 0, 0, 0 !default;
 
-$background-color: var(--atom-background-color,
-$background-color-value) !default;
-$background-color-rgb: var(--atom-background-color-rgb,
-$background-color-rgb-value) !default;
+$background-color: var(
+  --atom-background-color,
+  $background-color-value
+) !default;
+$background-color-rgb: var(
+  --atom-background-color-rgb,
+  $background-color-rgb-value
+) !default;
 
 $text-color: var(--atom-text-color, $text-color-value) !default;
 $text-color-rgb: var(--atom-text-color-rgb, $text-color-rgb-value) !default;
