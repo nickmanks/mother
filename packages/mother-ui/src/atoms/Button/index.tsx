@@ -1,4 +1,5 @@
 import * as React from 'react';
+import Icon from '../Icon';
 import { Button as StyledButton } from './styled';
 
 export type Props = {
@@ -26,6 +27,16 @@ export type Props = {
      * True if button is disabled
      */
     disabled?: boolean;
+
+    /**
+     * Icon name to prepend
+     */
+    prepend?: string;
+
+    /**
+     * Icon name to append
+     */
+    append?: string;
 };
 
 const Button: React.FC<Props> = ({
@@ -33,6 +44,8 @@ const Button: React.FC<Props> = ({
     theme,
     variant,
     rounded,
+    prepend,
+    append,
     ...htmlButtonProps
 }) => {
     return (
@@ -42,7 +55,9 @@ const Button: React.FC<Props> = ({
             rounded={rounded}
             {...htmlButtonProps}
         >
+            {prepend && <Icon name={prepend} variant={'white'} />}
             {children}
+            {append && <Icon name={append} variant={'white'} />}
         </StyledButton>
     );
 };

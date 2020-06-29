@@ -37,3 +37,11 @@ export const disabled = () => (
         Disabled
     </Button>
 );
+
+export const icon = () => (
+    <ButtonContainer>
+        <Button variant="primary" prepend="BeerMug">
+            Disabled
+        </Button>
+    </ButtonContainer>
+);
