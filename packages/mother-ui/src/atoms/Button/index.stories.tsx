@@ -13,6 +13,14 @@ const ButtonContainer = styled.div`
     }
 `;
 
+const IconButtonContainer = styled.div`
+    display: flex;
+
+    button {
+        margin: 1rem;
+    }
+`;
+
 export const all = () => (
     <ButtonContainer>
         <Button variant="primary">Primary</Button>
@@ -39,9 +47,17 @@ export const disabled = () => (
 );
 
 export const icon = () => (
-    <ButtonContainer>
-        <Button variant="primary" prepend="BeerMug">
-            Disabled
+    <IconButtonContainer>
+        <Button prepend="AirplaneSolid">Prepend Icon</Button>
+        <Button append="ChromeBackMirrored">Append Icon</Button>
+    </IconButtonContainer>
+);
+
+export const customStyles = () => (
+    <IconButtonContainer>
+        <Button className="custom-button">Custom Styles</Button>
+        <Button prepend="AirplaneSolid" iconClass="custom-button-icon">
+            Custom Icon Styles
         </Button>
-    </ButtonContainer>
+    </IconButtonContainer>
 );

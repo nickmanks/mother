@@ -14,6 +14,11 @@ export type Props = {
     theme?: Theme;
 
     /**
+     * Custom class name
+     */
+    className?: string;
+
+    /**
      * Max width of container (e.g. 1200px or 100%)
      */
     width?: string;
@@ -22,10 +27,16 @@ export type Props = {
 const Container: React.FC<Props> = ({
     children,
     theme,
+    className,
     width,
     ...htmlDivProps
 }) => (
-    <StyledContainer theme={theme} width={width} {...htmlDivProps}>
+    <StyledContainer
+        theme={theme}
+        className={className}
+        width={width}
+        {...htmlDivProps}
+    >
         {children}
     </StyledContainer>
 );

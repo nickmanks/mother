@@ -3,19 +3,24 @@ import { Icon as StyledIcon } from './styled';
 
 export type Props = {
     /**
+     * Icon name
+     */
+    name: string;
+
+    /**
      * Theme provider object
      */
     theme?: Theme;
 
     /**
+     * Custom class name
+     */
+    className?: string;
+
+    /**
      * A color variant
      */
     variant?: Variants;
-
-    /**
-     * Icon name
-     */
-    name: string;
 
     /**
      * Icon size in pixels
@@ -25,6 +30,7 @@ export type Props = {
 
 const Icon: React.FC<Props> = ({
     theme,
+    className,
     variant,
     name,
     size,
@@ -33,6 +39,7 @@ const Icon: React.FC<Props> = ({
     return (
         <StyledIcon
             theme={theme}
+            className={className}
             variant={variant}
             name={name}
             size={size}

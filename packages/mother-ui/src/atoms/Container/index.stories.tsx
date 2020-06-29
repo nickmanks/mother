@@ -26,3 +26,9 @@ export const width = () => (
         <GridInner color={getRandomColor()} />
     </Container>
 );
+
+export const customStyles = () => (
+    <Container className={'custom-container'}>
+        <GridInner color={getRandomColor()} />
+    </Container>
+);

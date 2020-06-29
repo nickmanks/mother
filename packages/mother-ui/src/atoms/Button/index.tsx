@@ -1,6 +1,10 @@
 import * as React from 'react';
-import Icon from '../Icon';
-import { Button as StyledButton } from './styled';
+import {
+    Button as StyledButton,
+    InnerContainer,
+    PrependIcon,
+    AppendIcon,
+} from './styled';
 
 export type Props = {
     /**
@@ -12,6 +16,11 @@ export type Props = {
      * Theme provider object
      */
     theme?: Theme;
+
+    /**
+     * Custom class name
+     */
+    className?: string;
 
     /**
      * A color variant
@@ -37,27 +46,51 @@ export type Props = {
      * Icon name to append
      */
     append?: string;
+
+    /**
+     * Custom icon class name
+     */
+    iconClass?: string;
 };
 
 const Button: React.FC<Props> = ({
     children,
     theme,
+    className,
     variant,
     rounded,
     prepend,
     append,
+    iconClass,
     ...htmlButtonProps
 }) => {
     return (
         <StyledButton
             theme={theme}
+            className={className}
             variant={variant}
             rounded={rounded}
             {...htmlButtonProps}
         >
-            {prepend && <Icon name={prepend} variant={'white'} />}
-            {children}
-            {append && <Icon name={append} variant={'white'} />}
+            <InnerContainer>
+                {prepend && (
+                    <PrependIcon
+                        className={iconClass}
+                        name={prepend}
+                        variant={'white'}
+                        size={20}
+                    />
+                )}
+                <div>{children}</div>
+                {append && (
+                    <AppendIcon
+                        className={iconClass}
+                        name={append}
+                        variant={'white'}
+                        size={20}
+                    />
+                )}
+            </InnerContainer>
         </StyledButton>
     );
 };

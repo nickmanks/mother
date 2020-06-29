@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { darken } from 'polished';
+import Icon from '../Icon';
 import { getVariant } from '../../theme/helpers';
 import { variants, white } from '../../theme/colors';
 import { shadows, rounding } from '../../theme/styles';
@@ -46,4 +47,17 @@ export const Button = styled.button<Props>`
         border: 1px solid ${variants.medium.color};
         color: ${white};
     }
+`;
+
+export const InnerContainer = styled.div`
+    display: flex;
+    justify-content: space-evenly;
+`;
+
+export const PrependIcon = styled(Icon)`
+    margin-right: 1rem;
+`;
+
+export const AppendIcon = styled(Icon)`
+    margin-left: 1rem;
 `;

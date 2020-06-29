@@ -34,3 +34,7 @@ export const size = () => (
         <Icon variant="info" name="BeerMug" size={34} />
     </IconContainer>
 );
+
+export const customStyles = () => (
+    <Icon name="AirplaneSolid" className="custom-icon" />
+);

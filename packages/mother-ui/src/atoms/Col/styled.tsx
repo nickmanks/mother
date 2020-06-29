@@ -20,7 +20,7 @@ const widths = [
 ];
 
 const getWidth = (size?: number) => {
-    if (size) {
+    if (size && widths[Math.round(size)]) {
         if (size !== 12) {
             return `${widths[size]}% - ${padding.s1}*2`;
         }
@@ -28,7 +28,7 @@ const getWidth = (size?: number) => {
         return `${widths[size]}%`;
     }
 
-    return 0;
+    return 100;
 };
 
 export const Col = styled.div<Props>`

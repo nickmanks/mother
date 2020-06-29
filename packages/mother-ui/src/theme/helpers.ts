@@ -12,5 +12,16 @@ export const getVariant = (type: string, ...compositionFunctions: any): any =>
         return variants['primary'][type];
     });
 
-export const getRandomColor = () =>
-    Math.floor(Math.random() * 16777215).toString(16);
+export const getRandomColor = (): string => {
+    const randomColor = Math.floor(Math.random() * 16777215).toString(16);
+
+    if (randomColor.length === 5) {
+        return randomColor + '0';
+    }
+
+    if (randomColor === 'ffffff' || randomColor === 'FFFFFF') {
+        return getRandomColor();
+    }
+
+    return randomColor;
+};
