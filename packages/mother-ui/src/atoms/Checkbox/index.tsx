@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { Wrapper, Checkbox as StyledCheckbox, Label } from './styled';
+import { useState } from 'react';
+import { Checkbox as StyledCheckbox, Label } from './styled';
 
 export interface Props extends React.HTMLAttributes<HTMLInputElement> {
     /**
@@ -23,9 +24,16 @@ export interface Props extends React.HTMLAttributes<HTMLInputElement> {
     variant?: Variants;
 
     /**
+     * True if checkbox starts in checked state
+     */
+    initial?: boolean;
+
+    /**
      * True if checkbox is disabled
      */
     disabled?: boolean;
+
+    onChange?: (event: React.FormEvent<HTMLInputElement>) => void;
 }
 
 const Checkbox: React.FC<Props> = ({
@@ -33,21 +41,37 @@ const Checkbox: React.FC<Props> = ({
     theme,
     className,
     variant,
+    initial,
     disabled,
+    onChange,
     ...htmlInputProps
-}) => (
-    <Wrapper>
-        <StyledCheckbox
+}) => {
+    const [checked, setChecked] = useState(initial || false);
+
+    return (
+        <Label
             theme={theme}
             className={className}
             variant={variant}
-            {...htmlInputProps}
-        />
-        <Label>
+            checked={checked}
+            disabled={disabled}
+        >
+            <StyledCheckbox
+                {...htmlInputProps}
+                disabled={disabled}
+                checked={checked}
+                onChange={(evt) => {
+                    setChecked(!checked);
+
+                    if (onChange) {
+                        onChange(evt);
+                    }
+                }}
+            />
             <span></span>
             {children}
         </Label>
-    </Wrapper>
-);
+    );
+};
 
 export default Checkbox;

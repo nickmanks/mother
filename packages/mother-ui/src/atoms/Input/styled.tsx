@@ -16,6 +16,7 @@ export const Label = styled.label`
     font-weight: ${fonts.weight.light};
     font-size: ${fonts.size.s2}px;
     line-height: 2rem;
+    margin-left: 1px;
 `;
 
 export const OuterContainer = styled.div`

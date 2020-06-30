@@ -29,6 +29,7 @@ export default {
         '@uifabric',
         '@uifabric/icons',
         'office-ui-fabric-react',
+        'lodash.uniqueid',
     ],
     plugins: [
         external(),
