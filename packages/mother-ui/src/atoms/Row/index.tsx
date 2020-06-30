@@ -2,7 +2,7 @@ import * as React from 'react';
 import { createContext } from 'react';
 import { Row as StyledRow } from './styled';
 
-export type Props = {
+export interface Props extends React.HTMLAttributes<HTMLDivElement> {
     /**
      * Child components or strings
      */
@@ -17,12 +17,7 @@ export type Props = {
      * Custom class name
      */
     className?: string;
-
-    /**
-     * All other standard React HTML `<div>` props
-     */
-    '...htmlDivProps'?: React.HTMLProps<HTMLDivElement>;
-};
+}
 
 export const RowContext = createContext({});
 

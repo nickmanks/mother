@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { darken } from 'polished';
 import Icon from '../Icon';
 import { getVariant } from '../../theme/helpers';
-import { variants, white } from '../../theme/colors';
+import { grey04, grey08 } from '../../theme/colors';
 import { shadows, rounding } from '../../theme/styles';
 import { fonts, fontFamily, fontSpacing } from '../../theme/fonts';
 import { Props } from '.';
@@ -43,9 +43,9 @@ export const Button = styled.button<Props>`
 
     &:disabled {
         cursor: not-allowed;
-        background: ${variants.medium.color};
-        border: 1px solid ${variants.medium.color};
-        color: ${white};
+        background: ${grey04};
+        border: 1px solid ${grey04};
+        color: ${grey08};
     }
 `;
 

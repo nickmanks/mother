@@ -2,7 +2,7 @@ import * as React from 'react';
 import { AutoGrid as StyledAutoGrid } from './styled';
 import { maxWidth } from '../../theme/layout';
 
-export type Props = {
+export interface Props extends React.HTMLAttributes<HTMLDivElement> {
     /**
      * A child component
      */
@@ -27,12 +27,7 @@ export type Props = {
      * Width of columns (e.g. 100px or 20%)
      */
     columns?: string;
-
-    /**
-     * All other standard React HTML `<div>` props
-     */
-    '...htmlDivProps'?: React.HTMLProps<HTMLDivElement>;
-};
+}
 
 const AutoGrid: React.FC<Props> = ({
     children,

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Icon as StyledIcon } from './styled';
 
-export type Props = {
+export interface Props extends React.HTMLAttributes<HTMLElement> {
     /**
      * Icon name
      */
@@ -26,21 +26,9 @@ export type Props = {
      * Icon size in pixels
      */
     size?: number;
+}
 
-    /**
-     * All other standard React HTML element props
-     */
-    '...htmlIconProps'?: React.HTMLProps<HTMLElement>;
-};
-
-const Icon: React.FC<Props> = ({
-    theme,
-    className,
-    variant,
-    name,
-    size,
-    ...htmlIconProps
-}) => {
+const Icon: React.FC<Props> = ({ theme, className, variant, name, size }) => {
     return (
         <StyledIcon
             theme={theme}
@@ -48,7 +36,6 @@ const Icon: React.FC<Props> = ({
             variant={variant}
             name={name}
             size={size}
-            {...htmlIconProps}
         />
     );
 };

@@ -5,9 +5,9 @@ import Button from '.';
 const notes = `
     # Button
 
-    This component is a UI wrapper around the standard HTML \`<button>\` element.
+    This component is a UI wrapper around the standard React HTML \`<button>\` element.
 
-    On top of the props listed in the props table, all standard
+    On top of the props listed in the props table, all standard React
     \`HTMLElement\` and \`HTMLButtonElement\` props are available.
     
     See https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button

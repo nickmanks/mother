@@ -23,6 +23,10 @@ const GlobalStyles = () => (
         body {
           font-family: 'Euclid', 'Inter', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue ', sans-serif;
         }
+
+        *::selection {
+          background: #a057ff59;
+        }
       `}</style>
     </Helmet>
 );

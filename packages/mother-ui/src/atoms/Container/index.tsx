@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Container as StyledContainer } from './styled';
 import { maxWidth } from '../../theme/layout';
 
-export type Props = {
+export interface Props extends React.HTMLAttributes<HTMLDivElement> {
     /**
      * Child components or strings
      */
@@ -22,12 +22,7 @@ export type Props = {
      * Max width of container (e.g. 1200px or 100%)
      */
     width?: string;
-
-    /**
-     * All other standard React HTML `<div>` props
-     */
-    '...htmlDivProps'?: React.HTMLProps<HTMLDivElement>;
-};
+}
 
 const Container: React.FC<Props> = ({
     children,

@@ -8,9 +8,9 @@ import { getRandomColor } from '../../theme/helpers';
 const notes = `
     # Col
 
-    This component is a UI wrapper around the standard HTML \`<div>\` element.
+    This component is a UI wrapper around the standard React HTML \`<div>\` element.
 
-    On top of the props listed in the props table, all standard
+    On top of the props listed in the props table, all standard React
     \`HTMLElement\` and \`HTMLDivElement\` props are available.
     
     See https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div

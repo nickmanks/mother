@@ -6,7 +6,7 @@ import {
     AppendIcon,
 } from './styled';
 
-export type Props = {
+export interface Props extends React.HTMLAttributes<HTMLButtonElement> {
     /**
      * A child component
      */
@@ -51,12 +51,7 @@ export type Props = {
      * Custom icon class name
      */
     iconClass?: string;
-
-    /**
-     * All other standard React HTML `<button>` props
-     */
-    '...htmlButtonProps'?: React.HTMLProps<HTMLButtonElement>;
-};
+}
 
 const Button: React.FC<Props> = ({
     children,
@@ -68,36 +63,34 @@ const Button: React.FC<Props> = ({
     append,
     iconClass,
     ...htmlButtonProps
-}) => {
-    return (
-        <StyledButton
-            theme={theme}
-            className={className}
-            variant={variant}
-            rounded={rounded}
-            {...htmlButtonProps}
-        >
-            <InnerContainer>
-                {prepend && (
-                    <PrependIcon
-                        className={iconClass}
-                        name={prepend}
-                        variant={'white'}
-                        size={18}
-                    />
-                )}
-                <div>{children}</div>
-                {append && (
-                    <AppendIcon
-                        className={iconClass}
-                        name={append}
-                        variant={'white'}
-                        size={18}
-                    />
-                )}
-            </InnerContainer>
-        </StyledButton>
-    );
-};
+}) => (
+    <StyledButton
+        theme={theme}
+        className={className}
+        variant={variant}
+        rounded={rounded}
+        {...htmlButtonProps}
+    >
+        <InnerContainer>
+            {prepend && (
+                <PrependIcon
+                    className={iconClass}
+                    name={prepend}
+                    variant={'white'}
+                    size={18}
+                />
+            )}
+            <div>{children}</div>
+            {append && (
+                <AppendIcon
+                    className={iconClass}
+                    name={append}
+                    variant={'white'}
+                    size={18}
+                />
+            )}
+        </InnerContainer>
+    </StyledButton>
+);
 
 export default Button;

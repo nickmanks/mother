@@ -4,7 +4,7 @@ import { Col as StyledCol } from './styled';
 import { RowContext } from '../Row';
 import { getSize } from './helpers';
 
-export type Props = {
+export interface Props extends React.HTMLAttributes<HTMLDivElement> {
     /**
      * Child components or strings
      */
@@ -24,12 +24,7 @@ export type Props = {
      * Size of the column (0-12)
      */
     size?: number;
-
-    /**
-     * All other standard React HTML `<div>` props
-     */
-    '...htmlDivProps'?: React.HTMLProps<HTMLDivElement>;
-};
+}
 
 const Col: React.FC<Props> = ({
     children,
