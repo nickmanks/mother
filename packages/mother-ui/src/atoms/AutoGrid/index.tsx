@@ -27,6 +27,11 @@ export type Props = {
      * Width of columns (e.g. 100px or 20%)
      */
     columns?: string;
+
+    /**
+     * All other standard React HTML `<div>` props
+     */
+    '...htmlDivProps'?: React.HTMLProps<HTMLDivElement>;
 };
 
 const AutoGrid: React.FC<Props> = ({

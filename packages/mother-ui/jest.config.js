@@ -1,4 +1,7 @@
 module.exports = {
+    setupFiles: ['<rootDir>/src/testing/setup.tsx'],
+    setupFilesAfterEnv: ['<rootDir>/src/testing/env.ts'],
+
     transform: {
         '^.+\\.tsx?$': 'ts-jest',
         '^.+\\.jsx?$': 'babel-jest',
@@ -22,6 +25,8 @@ module.exports = {
         'src/**/*.(ts|tsx)',
         '!src/index.ts',
         '!src/testing/*.(js|jsx|ts|tsx)',
+        '!src/layouts/ExampleGrid/*.(js|jsx|ts|tsx)',
+        '!src/theme/ExampleIcons/*.(js|jsx|ts|tsx)',
     ],
     coverageThreshold: {
         global: {

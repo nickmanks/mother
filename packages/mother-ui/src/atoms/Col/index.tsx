@@ -6,7 +6,7 @@ import { getSize } from './helpers';
 
 export type Props = {
     /**
-     * A child component
+     * Child components or strings
      */
     children?: React.ReactNode | string;
 
@@ -16,17 +16,34 @@ export type Props = {
     theme?: Theme;
 
     /**
+     * Custom class name
+     */
+    className?: string;
+
+    /**
      * Size of the column (0-12)
      */
     size?: number;
+
+    /**
+     * All other standard React HTML `<div>` props
+     */
+    '...htmlDivProps'?: React.HTMLProps<HTMLDivElement>;
 };
 
-const Col: React.FC<Props> = ({ children, theme, size, ...htmlDivProps }) => {
+const Col: React.FC<Props> = ({
+    children,
+    theme,
+    className,
+    size,
+    ...htmlDivProps
+}) => {
     const rowContext = useContext(RowContext);
 
     return (
         <StyledCol
             theme={theme}
+            className={className}
             size={size || getSize(rowContext)}
             {...htmlDivProps}
         >

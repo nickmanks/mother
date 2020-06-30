@@ -1,65 +1,1631 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Atoms/Button All 1`] = `
+exports[`Storyshots Atoms/AutoGrid All 1`] = `
+.c0 {
+  max-width: 1200px;
+  width: 100%;
+  display: grid;
+  grid-auto-rows: unset;
+  grid-template-columns: repeat( auto-fill, minmax(300px,1fr) );
+  grid-gap: 1rem;
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+}
+
+.c1 {
+  background: ##random;
+  height: 5rem;
+  border-radius: 5px;
+}
+
 <div
-  className="sc-AxirZ jOYUeK"
+  className="c0"
+  rows="unset"
+  width="1200px"
+>
+  <div
+    className="c1"
+    color="#random"
+  />
+  <div
+    className="c1"
+    color="#random"
+  />
+  <div
+    className="c1"
+    color="#random"
+  />
+  <div
+    className="c1"
+    color="#random"
+  />
+  <div
+    className="c1"
+    color="#random"
+  />
+  <div
+    className="c1"
+    color="#random"
+  />
+</div>
+`;
+
+exports[`Storyshots Atoms/AutoGrid Column 1`] = `
+.c0 {
+  max-width: 1200px;
+  width: 100%;
+  display: grid;
+  grid-auto-rows: unset;
+  grid-template-columns: repeat( auto-fill, minmax(10%,1fr) );
+  grid-gap: 1rem;
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+}
+
+.c1 {
+  background: ##random;
+  height: 5rem;
+  border-radius: 5px;
+}
+
+<div
+  className="c0"
+  rows="unset"
+  width="1200px"
+>
+  <div
+    className="c1"
+    color="#random"
+  />
+  <div
+    className="c1"
+    color="#random"
+  />
+  <div
+    className="c1"
+    color="#random"
+  />
+  <div
+    className="c1"
+    color="#random"
+  />
+  <div
+    className="c1"
+    color="#random"
+  />
+  <div
+    className="c1"
+    color="#random"
+  />
+</div>
+`;
+
+exports[`Storyshots Atoms/AutoGrid Row 1`] = `
+.c0 {
+  max-width: 1200px;
+  width: 100%;
+  display: grid;
+  grid-auto-rows: 10rem;
+  grid-template-columns: repeat( auto-fill, minmax(300px,1fr) );
+  grid-gap: 1rem;
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+}
+
+.c1 {
+  background: ##random;
+  height: 5rem;
+  border-radius: 5px;
+}
+
+<div
+  className="c0"
+  rows="10rem"
+  width="1200px"
+>
+  <div
+    className="c1"
+    color="#random"
+  />
+  <div
+    className="c1"
+    color="#random"
+  />
+  <div
+    className="c1"
+    color="#random"
+  />
+  <div
+    className="c1"
+    color="#random"
+  />
+  <div
+    className="c1"
+    color="#random"
+  />
+  <div
+    className="c1"
+    color="#random"
+  />
+</div>
+`;
+
+exports[`Storyshots Atoms/AutoGrid Width 1`] = `
+.c0 {
+  max-width: 500px;
+  width: 100%;
+  display: grid;
+  grid-auto-rows: unset;
+  grid-template-columns: repeat( auto-fill, minmax(300px,1fr) );
+  grid-gap: 1rem;
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+}
+
+.c1 {
+  background: ##random;
+  height: 5rem;
+  border-radius: 5px;
+}
+
+<div
+  className="c0"
+  rows="unset"
+  width="500px"
+>
+  <div
+    className="c1"
+    color="#random"
+  />
+  <div
+    className="c1"
+    color="#random"
+  />
+  <div
+    className="c1"
+    color="#random"
+  />
+  <div
+    className="c1"
+    color="#random"
+  />
+  <div
+    className="c1"
+    color="#random"
+  />
+  <div
+    className="c1"
+    color="#random"
+  />
+</div>
+`;
+
+exports[`Storyshots Atoms/Button All 1`] = `
+.c1 {
+  background: #720afb;
+  border: 1px solid #720afb;
+  color: #fff;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.12);
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  border-radius: 5px;
+  -webkit-letter-spacing: 0.6px;
+  -moz-letter-spacing: 0.6px;
+  -ms-letter-spacing: 0.6px;
+  letter-spacing: 0.6px;
+  cursor: pointer;
+  height: 50px;
+  line-height: 40px;
+  min-width: 200px;
+  padding: 0 27px;
+  text-rendering: optimizeLegibility;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.c1:focus {
+  outline: none;
+}
+
+.c1:hover {
+  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+  -webkit-transform: translate3d(0,-1px,0);
+  -ms-transform: translate3d(0,-1px,0);
+  transform: translate3d(0,-1px,0);
+  background: #6004d9;
+  border: 1px solid #6004d9;
+}
+
+.c1:disabled {
+  cursor: not-allowed;
+  background: #a59cb2;
+  border: 1px solid #a59cb2;
+  color: #fff;
+}
+
+.c3 {
+  background: #b988fd;
+  border: 1px solid #b988fd;
+  color: #fff;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.12);
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  border-radius: 5px;
+  -webkit-letter-spacing: 0.6px;
+  -moz-letter-spacing: 0.6px;
+  -ms-letter-spacing: 0.6px;
+  letter-spacing: 0.6px;
+  cursor: pointer;
+  height: 50px;
+  line-height: 40px;
+  min-width: 200px;
+  padding: 0 27px;
+  text-rendering: optimizeLegibility;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.c3:focus {
+  outline: none;
+}
+
+.c3:hover {
+  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+  -webkit-transform: translate3d(0,-1px,0);
+  -ms-transform: translate3d(0,-1px,0);
+  transform: translate3d(0,-1px,0);
+  background: #a160fc;
+  border: 1px solid #a160fc;
+}
+
+.c3:disabled {
+  cursor: not-allowed;
+  background: #a59cb2;
+  border: 1px solid #a59cb2;
+  color: #fff;
+}
+
+.c4 {
+  background: #08c8b8;
+  border: 1px solid #08c8b8;
+  color: #fff;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.12);
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  border-radius: 5px;
+  -webkit-letter-spacing: 0.6px;
+  -moz-letter-spacing: 0.6px;
+  -ms-letter-spacing: 0.6px;
+  letter-spacing: 0.6px;
+  cursor: pointer;
+  height: 50px;
+  line-height: 40px;
+  min-width: 200px;
+  padding: 0 27px;
+  text-rendering: optimizeLegibility;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.c4:focus {
+  outline: none;
+}
+
+.c4:hover {
+  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+  -webkit-transform: translate3d(0,-1px,0);
+  -ms-transform: translate3d(0,-1px,0);
+  transform: translate3d(0,-1px,0);
+  background: #06a194;
+  border: 1px solid #06a194;
+}
+
+.c4:disabled {
+  cursor: not-allowed;
+  background: #a59cb2;
+  border: 1px solid #a59cb2;
+  color: #fff;
+}
+
+.c5 {
+  background: #fc9b57;
+  border: 1px solid #fc9b57;
+  color: #fff;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.12);
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  border-radius: 5px;
+  -webkit-letter-spacing: 0.6px;
+  -moz-letter-spacing: 0.6px;
+  -ms-letter-spacing: 0.6px;
+  letter-spacing: 0.6px;
+  cursor: pointer;
+  height: 50px;
+  line-height: 40px;
+  min-width: 200px;
+  padding: 0 27px;
+  text-rendering: optimizeLegibility;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.c5:focus {
+  outline: none;
+}
+
+.c5:hover {
+  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+  -webkit-transform: translate3d(0,-1px,0);
+  -ms-transform: translate3d(0,-1px,0);
+  transform: translate3d(0,-1px,0);
+  background: #fb832f;
+  border: 1px solid #fb832f;
+}
+
+.c5:disabled {
+  cursor: not-allowed;
+  background: #a59cb2;
+  border: 1px solid #a59cb2;
+  color: #fff;
+}
+
+.c6 {
+  background: #fc4150;
+  border: 1px solid #fc4150;
+  color: #fff;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.12);
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  border-radius: 5px;
+  -webkit-letter-spacing: 0.6px;
+  -moz-letter-spacing: 0.6px;
+  -ms-letter-spacing: 0.6px;
+  letter-spacing: 0.6px;
+  cursor: pointer;
+  height: 50px;
+  line-height: 40px;
+  min-width: 200px;
+  padding: 0 27px;
+  text-rendering: optimizeLegibility;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.c6:focus {
+  outline: none;
+}
+
+.c6:hover {
+  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+  -webkit-transform: translate3d(0,-1px,0);
+  -ms-transform: translate3d(0,-1px,0);
+  transform: translate3d(0,-1px,0);
+  background: #fb192b;
+  border: 1px solid #fb192b;
+}
+
+.c6:disabled {
+  cursor: not-allowed;
+  background: #a59cb2;
+  border: 1px solid #a59cb2;
+  color: #fff;
+}
+
+.c7 {
+  background: #098dea;
+  border: 1px solid #098dea;
+  color: #fff;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.12);
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  border-radius: 5px;
+  -webkit-letter-spacing: 0.6px;
+  -moz-letter-spacing: 0.6px;
+  -ms-letter-spacing: 0.6px;
+  letter-spacing: 0.6px;
+  cursor: pointer;
+  height: 50px;
+  line-height: 40px;
+  min-width: 200px;
+  padding: 0 27px;
+  text-rendering: optimizeLegibility;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.c7:focus {
+  outline: none;
+}
+
+.c7:hover {
+  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+  -webkit-transform: translate3d(0,-1px,0);
+  -ms-transform: translate3d(0,-1px,0);
+  transform: translate3d(0,-1px,0);
+  background: #0775c3;
+  border: 1px solid #0775c3;
+}
+
+.c7:disabled {
+  cursor: not-allowed;
+  background: #a59cb2;
+  border: 1px solid #a59cb2;
+  color: #fff;
+}
+
+.c8 {
+  background: #fff;
+  border: 1px solid #fff;
+  color: #000;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.12);
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  border-radius: 5px;
+  -webkit-letter-spacing: 0.6px;
+  -moz-letter-spacing: 0.6px;
+  -ms-letter-spacing: 0.6px;
+  letter-spacing: 0.6px;
+  cursor: pointer;
+  height: 50px;
+  line-height: 40px;
+  min-width: 200px;
+  padding: 0 27px;
+  text-rendering: optimizeLegibility;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.c8:focus {
+  outline: none;
+}
+
+.c8:hover {
+  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+  -webkit-transform: translate3d(0,-1px,0);
+  -ms-transform: translate3d(0,-1px,0);
+  transform: translate3d(0,-1px,0);
+  background: #ebebeb;
+  border: 1px solid #ebebeb;
+}
+
+.c8:disabled {
+  cursor: not-allowed;
+  background: #a59cb2;
+  border: 1px solid #a59cb2;
+  color: #fff;
+}
+
+.c9 {
+  background: transparent;
+  border: 1px solid transparent;
+  color: #000;
+  box-shadow: none;
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  border-radius: 5px;
+  -webkit-letter-spacing: 0.6px;
+  -moz-letter-spacing: 0.6px;
+  -ms-letter-spacing: 0.6px;
+  letter-spacing: 0.6px;
+  cursor: pointer;
+  height: 50px;
+  line-height: 40px;
+  min-width: 200px;
+  padding: 0 27px;
+  text-rendering: optimizeLegibility;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.c9:focus {
+  outline: none;
+}
+
+.c9:hover {
+  box-shadow: none;
+  -webkit-transform: translate3d(0,-1px,0);
+  -ms-transform: translate3d(0,-1px,0);
+  transform: translate3d(0,-1px,0);
+  background: transparent;
+  border: 1px solid transparent;
+}
+
+.c9:disabled {
+  cursor: not-allowed;
+  background: #a59cb2;
+  border: 1px solid #a59cb2;
+  color: #fff;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -webkit-justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+.c0 button {
+  margin: 1rem;
+}
+
+<div
+  className="c0"
 >
   <button
-    className="sc-AxjAm hlxnqx"
+    className="c1"
   >
-    Primary
+    <div
+      className="c2"
+    >
+      <div>
+        Primary
+      </div>
+    </div>
   </button>
   <button
-    className="sc-AxjAm dDGsF"
+    className="c3"
   >
-    Secondary
+    <div
+      className="c2"
+    >
+      <div>
+        Secondary
+      </div>
+    </div>
   </button>
   <button
-    className="sc-AxjAm lponyx"
+    className="c4"
   >
-    Success
+    <div
+      className="c2"
+    >
+      <div>
+        Success
+      </div>
+    </div>
   </button>
   <button
-    className="sc-AxjAm bPSkEV"
+    className="c5"
   >
-    Warning
+    <div
+      className="c2"
+    >
+      <div>
+        Warning
+      </div>
+    </div>
   </button>
   <button
-    className="sc-AxjAm VxfQp"
+    className="c6"
   >
-    Danger
+    <div
+      className="c2"
+    >
+      <div>
+        Danger
+      </div>
+    </div>
   </button>
   <button
-    className="sc-AxjAm cmTyxB"
+    className="c7"
   >
-    Info
+    <div
+      className="c2"
+    >
+      <div>
+        Info
+      </div>
+    </div>
   </button>
   <button
-    className="sc-AxjAm GZjDD"
+    className="c8"
   >
-    White
+    <div
+      className="c2"
+    >
+      <div>
+        White
+      </div>
+    </div>
   </button>
   <button
-    className="sc-AxjAm bWOiLA"
+    className="c9"
   >
-    Transparent
+    <div
+      className="c2"
+    >
+      <div>
+        Transparent
+      </div>
+    </div>
+  </button>
+</div>
+`;
+
+exports[`Storyshots Atoms/Button Custom Styles 1`] = `
+.c1 {
+  background: #720afb;
+  border: 1px solid #720afb;
+  color: #fff;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.12);
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  border-radius: 5px;
+  -webkit-letter-spacing: 0.6px;
+  -moz-letter-spacing: 0.6px;
+  -ms-letter-spacing: 0.6px;
+  letter-spacing: 0.6px;
+  cursor: pointer;
+  height: 50px;
+  line-height: 40px;
+  min-width: 200px;
+  padding: 0 27px;
+  text-rendering: optimizeLegibility;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.c1:focus {
+  outline: none;
+}
+
+.c1:hover {
+  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+  -webkit-transform: translate3d(0,-1px,0);
+  -ms-transform: translate3d(0,-1px,0);
+  transform: translate3d(0,-1px,0);
+  background: #6004d9;
+  border: 1px solid #6004d9;
+}
+
+.c1:disabled {
+  cursor: not-allowed;
+  background: #a59cb2;
+  border: 1px solid #a59cb2;
+  color: #fff;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -webkit-justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 button {
+  margin: 1rem;
+}
+
+<div
+  className="c0"
+>
+  <button
+    className="c1 custom-button"
+  >
+    <div
+      className="c2"
+    >
+      <div>
+        Custom Styles
+      </div>
+    </div>
+  </button>
+  <button
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <i>
+        AirplaneSolid
+      </i>
+      <div>
+        Custom Icon Styles
+      </div>
+    </div>
   </button>
 </div>
 `;
 
 exports[`Storyshots Atoms/Button Disabled 1`] = `
+.c0 {
+  background: #720afb;
+  border: 1px solid #720afb;
+  color: #fff;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.12);
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  border-radius: 5px;
+  -webkit-letter-spacing: 0.6px;
+  -moz-letter-spacing: 0.6px;
+  -ms-letter-spacing: 0.6px;
+  letter-spacing: 0.6px;
+  cursor: pointer;
+  height: 50px;
+  line-height: 40px;
+  min-width: 200px;
+  padding: 0 27px;
+  text-rendering: optimizeLegibility;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c0:hover {
+  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+  -webkit-transform: translate3d(0,-1px,0);
+  -ms-transform: translate3d(0,-1px,0);
+  transform: translate3d(0,-1px,0);
+  background: #6004d9;
+  border: 1px solid #6004d9;
+}
+
+.c0:disabled {
+  cursor: not-allowed;
+  background: #a59cb2;
+  border: 1px solid #a59cb2;
+  color: #fff;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -webkit-justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
 <button
-  className="sc-AxjAm hlxnqx"
+  className="c0"
   disabled={true}
 >
-  Disabled
+  <div
+    className="c1"
+  >
+    <div>
+      Disabled
+    </div>
+  </div>
 </button>
 `;
 
-exports[`Storyshots Atoms/Button Rounded 1`] = `
-<button
-  className="sc-AxjAm gGqGIR"
+exports[`Storyshots Atoms/Button Icon 1`] = `
+.c1 {
+  background: #720afb;
+  border: 1px solid #720afb;
+  color: #fff;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.12);
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  border-radius: 5px;
+  -webkit-letter-spacing: 0.6px;
+  -moz-letter-spacing: 0.6px;
+  -ms-letter-spacing: 0.6px;
+  letter-spacing: 0.6px;
+  cursor: pointer;
+  height: 50px;
+  line-height: 40px;
+  min-width: 200px;
+  padding: 0 27px;
+  text-rendering: optimizeLegibility;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.c1:focus {
+  outline: none;
+}
+
+.c1:hover {
+  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+  -webkit-transform: translate3d(0,-1px,0);
+  -ms-transform: translate3d(0,-1px,0);
+  transform: translate3d(0,-1px,0);
+  background: #6004d9;
+  border: 1px solid #6004d9;
+}
+
+.c1:disabled {
+  cursor: not-allowed;
+  background: #a59cb2;
+  border: 1px solid #a59cb2;
+  color: #fff;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -webkit-justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 button {
+  margin: 1rem;
+}
+
+<div
+  className="c0"
 >
-  Pill shaped
+  <button
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <i>
+        AirplaneSolid
+      </i>
+      <div>
+        Prepend Icon
+      </div>
+    </div>
+  </button>
+  <button
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <div>
+        Append Icon
+      </div>
+      <i>
+        ChromeBackMirrored
+      </i>
+    </div>
+  </button>
+</div>
+`;
+
+exports[`Storyshots Atoms/Button Rounded 1`] = `
+.c0 {
+  background: #720afb;
+  border: 1px solid #720afb;
+  color: #fff;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.12);
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  border-radius: 3rem;
+  -webkit-letter-spacing: 0.6px;
+  -moz-letter-spacing: 0.6px;
+  -ms-letter-spacing: 0.6px;
+  letter-spacing: 0.6px;
+  cursor: pointer;
+  height: 50px;
+  line-height: 40px;
+  min-width: 200px;
+  padding: 0 27px;
+  text-rendering: optimizeLegibility;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c0:hover {
+  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+  -webkit-transform: translate3d(0,-1px,0);
+  -ms-transform: translate3d(0,-1px,0);
+  transform: translate3d(0,-1px,0);
+  background: #6004d9;
+  border: 1px solid #6004d9;
+}
+
+.c0:disabled {
+  cursor: not-allowed;
+  background: #a59cb2;
+  border: 1px solid #a59cb2;
+  color: #fff;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -webkit-justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+<button
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div>
+      Pill shaped
+    </div>
+  </div>
 </button>
+`;
+
+exports[`Storyshots Atoms/Col All 1`] = `
+.c0 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+}
+
+.c1 {
+  width: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+}
+
+.c2 {
+  width: calc(50% - 0.2rem*2);
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+}
+
+.c3 {
+  background: ##random;
+  height: 5rem;
+  border-radius: 5px;
+  width: 100%;
+}
+
+<div
+  className="c0"
+  width="1200px"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+      size={6}
+    >
+      <div
+        className="c3"
+        color="#random"
+      />
+    </div>
+    <div
+      className="c2"
+      size={6}
+    >
+      <div
+        className="c3"
+        color="#random"
+      />
+    </div>
+  </div>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+      size={6}
+    >
+      <div
+        className="c3"
+        color="#random"
+      />
+    </div>
+    <div
+      className="c2"
+      size={6}
+    >
+      <div
+        className="c3"
+        color="#random"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Col Context 1`] = `
+.c0 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+}
+
+.c1 {
+  width: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+}
+
+.c2 {
+  width: calc(50% - 0.2rem*2);
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+}
+
+.c4 {
+  width: calc(25% - 0.2rem*2);
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+}
+
+.c3 {
+  background: ##random;
+  height: 5rem;
+  border-radius: 5px;
+  width: 100%;
+}
+
+<div
+  className="c0"
+  width="1200px"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+      size={6}
+    >
+      <div
+        className="c3"
+        color="#random"
+      />
+    </div>
+    <div
+      className="c2"
+      size={6}
+    >
+      <div
+        className="c3"
+        color="#random"
+      />
+    </div>
+  </div>
+  <div
+    className="c1"
+  >
+    <div
+      className="c4"
+      size={3}
+    >
+      <div
+        className="c3"
+        color="#random"
+      />
+    </div>
+    <div
+      className="c4"
+      size={3}
+    >
+      <div
+        className="c3"
+        color="#random"
+      />
+    </div>
+    <div
+      className="c4"
+      size={3}
+    >
+      <div
+        className="c3"
+        color="#random"
+      />
+    </div>
+    <div
+      className="c4"
+      size={3}
+    >
+      <div
+        className="c3"
+        color="#random"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Col Custom Styles 1`] = `
+.c0 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+}
+
+.c1 {
+  width: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+}
+
+.c2 {
+  width: calc(50% - 0.2rem*2);
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+}
+
+.c3 {
+  background: ##random;
+  height: 5rem;
+  border-radius: 5px;
+  width: 100%;
+}
+
+<div
+  className="c0"
+  width="1200px"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2 custom-column"
+      size={6}
+    >
+      <div
+        className="c3"
+        color="#random"
+      />
+    </div>
+    <div
+      className="c2 custom-column"
+      size={6}
+    >
+      <div
+        className="c3"
+        color="#random"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Col Size 1`] = `
+.c0 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+}
+
+.c1 {
+  width: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+}
+
+.c2 {
+  width: calc(75% - 0.2rem*2);
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+}
+
+.c4 {
+  width: calc(25% - 0.2rem*2);
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+}
+
+.c3 {
+  background: ##random;
+  height: 5rem;
+  border-radius: 5px;
+  width: 100%;
+}
+
+<div
+  className="c0"
+  width="1200px"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+      size={9}
+    >
+      <div
+        className="c3"
+        color="#random"
+      />
+    </div>
+    <div
+      className="c4"
+      size={3}
+    >
+      <div
+        className="c3"
+        color="#random"
+      />
+    </div>
+  </div>
+  <div
+    className="c1"
+  >
+    <div
+      className="c4"
+      size={3}
+    >
+      <div
+        className="c3"
+        color="#random"
+      />
+    </div>
+    <div
+      className="c4"
+      size={3}
+    >
+      <div
+        className="c3"
+        color="#random"
+      />
+    </div>
+    <div
+      className="c4"
+      size={3}
+    >
+      <div
+        className="c3"
+        color="#random"
+      />
+    </div>
+    <div
+      className="c4"
+      size={3}
+    >
+      <div
+        className="c3"
+        color="#random"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Container All 1`] = `
+.c0 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+}
+
+.c1 {
+  background: ##random;
+  height: 5rem;
+  border-radius: 5px;
+  width: 100%;
+}
+
+<div
+  className="c0"
+  width="1200px"
+>
+  <div
+    className="c1"
+    color="#random"
+  />
+</div>
+`;
+
+exports[`Storyshots Atoms/Container Custom Styles 1`] = `
+.c0 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+}
+
+.c1 {
+  background: ##random;
+  height: 5rem;
+  border-radius: 5px;
+  width: 100%;
+}
+
+<div
+  className="c0 custom-container"
+  width="1200px"
+>
+  <div
+    className="c1"
+    color="#random"
+  />
+</div>
+`;
+
+exports[`Storyshots Atoms/Container Width 1`] = `
+.c0 {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+}
+
+.c1 {
+  background: ##random;
+  height: 5rem;
+  border-radius: 5px;
+  width: 100%;
+}
+
+<div
+  className="c0"
+  width="500px"
+>
+  <div
+    className="c1"
+    color="#random"
+  />
+</div>
+`;
+
+exports[`Storyshots Atoms/Icon All 1`] = `
+.c0 i {
+  margin: 1rem;
+}
+
+<div
+  className="c0"
+>
+  <i>
+    AirplaneSolid
+  </i>
+  <i>
+    AccountManagement
+  </i>
+  <i>
+    ArrangeSendToBack
+  </i>
+  <i>
+    AustralianRules
+  </i>
+  <i>
+    AuthenticatorApp
+  </i>
+  <i>
+    BeerMug
+  </i>
+</div>
+`;
+
+exports[`Storyshots Atoms/Icon Custom Styles 1`] = `
+<i>
+  AirplaneSolid
+</i>
+`;
+
+exports[`Storyshots Atoms/Icon Size 1`] = `
+.c0 i {
+  margin: 1rem;
+}
+
+<div
+  className="c0"
+>
+  <i>
+    AirplaneSolid
+  </i>
+  <i>
+    AccountManagement
+  </i>
+  <i>
+    ArrangeSendToBack
+  </i>
+  <i>
+    AustralianRules
+  </i>
+  <i>
+    AuthenticatorApp
+  </i>
+  <i>
+    BeerMug
+  </i>
+</div>
+`;
+
+exports[`Storyshots Atoms/Row All 1`] = `
+.c0 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+}
+
+.c1 {
+  width: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+}
+
+.c2 {
+  background: ##random;
+  height: 5rem;
+  border-radius: 5px;
+  width: 100%;
+}
+
+<div
+  className="c0"
+  width="1200px"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+      color="#random"
+    />
+  </div>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+      color="#random"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Row Width 1`] = `
+.c0 {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+}
+
+.c1 {
+  width: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+}
+
+.c2 {
+  background: ##random;
+  height: 5rem;
+  border-radius: 5px;
+  width: 100%;
+}
+
+<div
+  className="c0"
+  width="500px"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+      color="#random"
+    />
+  </div>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+      color="#random"
+    />
+  </div>
+</div>
 `;

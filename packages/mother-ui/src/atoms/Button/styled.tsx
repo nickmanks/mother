@@ -56,8 +56,10 @@ export const InnerContainer = styled.div`
 
 export const PrependIcon = styled(Icon)`
     margin-right: 1rem;
+    margin-top: 2px;
 `;
 
 export const AppendIcon = styled(Icon)`
     margin-left: 1rem;
+    margin-top: 2px;
 `;

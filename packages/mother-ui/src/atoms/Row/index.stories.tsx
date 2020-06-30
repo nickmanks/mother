@@ -4,9 +4,23 @@ import Container from '../Container';
 import Row from '.';
 import { getRandomColor } from '../../theme/helpers';
 
+const notes = `
+    # Row
+
+    This component is a UI wrapper around the standard HTML \`<div>\` element.
+
+    On top of the props listed in the props table, all standard
+    \`HTMLElement\` and \`HTMLDivElement\` props are available.
+    
+    See https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div
+`;
+
 export default {
     title: 'Atoms/Row',
     component: Row,
+    parameters: {
+        notes,
+    },
 };
 
 const GridInner = styled.div`

@@ -5,9 +5,23 @@ import Row from '../Row';
 import Col from '.';
 import { getRandomColor } from '../../theme/helpers';
 
+const notes = `
+    # Col
+
+    This component is a UI wrapper around the standard HTML \`<div>\` element.
+
+    On top of the props listed in the props table, all standard
+    \`HTMLElement\` and \`HTMLDivElement\` props are available.
+    
+    See https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div
+`;
+
 export default {
     title: 'Atoms/Col',
     component: Col,
+    parameters: {
+        notes,
+    },
 };
 
 const GridInner = styled.div`
@@ -86,6 +100,19 @@ export const context = () => (
                 <GridInner color={getRandomColor()} />
             </Col>
             <Col>
+                <GridInner color={getRandomColor()} />
+            </Col>
+        </Row>
+    </Container>
+);
+
+export const customStyles = () => (
+    <Container>
+        <Row>
+            <Col className={'custom-column'}>
+                <GridInner color={getRandomColor()} />
+            </Col>
+            <Col className={'custom-column'}>
                 <GridInner color={getRandomColor()} />
             </Col>
         </Row>

@@ -25,8 +25,10 @@ export default {
         'ramda',
         'react-helmet',
         '@fluentui/react',
+        '@fluentui/react/lib/Icon',
         '@uifabric',
         '@uifabric/icons',
+        'office-ui-fabric-react',
     ],
     plugins: [
         external(),

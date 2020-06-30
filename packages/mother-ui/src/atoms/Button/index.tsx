@@ -51,6 +51,11 @@ export type Props = {
      * Custom icon class name
      */
     iconClass?: string;
+
+    /**
+     * All other standard React HTML `<button>` props
+     */
+    '...htmlButtonProps'?: React.HTMLProps<HTMLButtonElement>;
 };
 
 const Button: React.FC<Props> = ({
@@ -78,7 +83,7 @@ const Button: React.FC<Props> = ({
                         className={iconClass}
                         name={prepend}
                         variant={'white'}
-                        size={20}
+                        size={18}
                     />
                 )}
                 <div>{children}</div>
@@ -87,7 +92,7 @@ const Button: React.FC<Props> = ({
                         className={iconClass}
                         name={append}
                         variant={'white'}
-                        size={20}
+                        size={18}
                     />
                 )}
             </InnerContainer>

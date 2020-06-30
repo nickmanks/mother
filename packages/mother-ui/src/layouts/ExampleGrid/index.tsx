@@ -4,9 +4,7 @@ import Row from '../../atoms/Row';
 import Col from '../../atoms/Col';
 import { Inner } from './styled';
 
-type Props = {};
-
-const ExampleGrid: React.FC<Props> = () => (
+const ExampleGrid: React.FC<unknown> = () => (
     <Container>
         <Row>
             <Col size={1}>

@@ -26,6 +26,11 @@ export type Props = {
      * Icon size in pixels
      */
     size?: number;
+
+    /**
+     * All other standard React HTML element props
+     */
+    '...htmlIconProps'?: React.HTMLProps<HTMLElement>;
 };
 
 const Icon: React.FC<Props> = ({

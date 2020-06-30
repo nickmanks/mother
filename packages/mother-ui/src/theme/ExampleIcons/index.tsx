@@ -10,7 +10,7 @@ const ExampleIcons: React.SFC = () => (
             .sort()
             .filter((iconName: string) => !iconName.includes('Logo'))
             .map((iconName: string) => (
-                <IconContainer>
+                <IconContainer key={iconName}>
                     <Icon iconName={iconName} />
                     <p>{iconName}</p>
                 </IconContainer>

@@ -4,7 +4,7 @@ import { maxWidth } from '../../theme/layout';
 
 export type Props = {
     /**
-     * A child component
+     * Child components or strings
      */
     children?: React.ReactNode | string;
 
@@ -22,6 +22,11 @@ export type Props = {
      * Max width of container (e.g. 1200px or 100%)
      */
     width?: string;
+
+    /**
+     * All other standard React HTML `<div>` props
+     */
+    '...htmlDivProps'?: React.HTMLProps<HTMLDivElement>;
 };
 
 const Container: React.FC<Props> = ({

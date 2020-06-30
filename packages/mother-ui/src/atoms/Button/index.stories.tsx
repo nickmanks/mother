@@ -2,9 +2,23 @@ import * as React from 'react';
 import styled from 'styled-components';
 import Button from '.';
 
+const notes = `
+    # Button
+
+    This component is a UI wrapper around the standard HTML \`<button>\` element.
+
+    On top of the props listed in the props table, all standard
+    \`HTMLElement\` and \`HTMLButtonElement\` props are available.
+    
+    See https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button
+`;
+
 export default {
     title: 'Atoms/Button',
     component: Button,
+    parameters: {
+        notes,
+    },
 };
 
 const ButtonContainer = styled.div`
@@ -34,17 +48,9 @@ export const all = () => (
     </ButtonContainer>
 );
 
-export const rounded = () => (
-    <Button variant="primary" rounded>
-        Pill shaped
-    </Button>
-);
+export const rounded = () => <Button rounded>Pill shaped</Button>;
 
-export const disabled = () => (
-    <Button variant="primary" disabled>
-        Disabled
-    </Button>
-);
+export const disabled = () => <Button disabled>Disabled</Button>;
 
 export const icon = () => (
     <IconButtonContainer>

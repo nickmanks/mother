@@ -3,9 +3,23 @@ import styled from 'styled-components';
 import Container from '.';
 import { getRandomColor } from '../../theme/helpers';
 
+const notes = `
+    # Container
+
+    This component is a UI wrapper around the standard HTML \`<div>\` element.
+
+    On top of the props listed in the props table, all standard
+    \`HTMLElement\` and \`HTMLDivElement\` props are available.
+    
+    See https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div
+`;
+
 export default {
     title: 'Atoms/Container',
     component: Container,
+    parameters: {
+        notes,
+    },
 };
 
 const GridInner = styled.div`

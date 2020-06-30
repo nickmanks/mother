@@ -2,9 +2,20 @@ import * as React from 'react';
 import styled from 'styled-components';
 import Icon from '.';
 
+const notes = `
+    # Icon
+
+    This component is a UI wrapper around the 
+    [@fluentui/Icons](https://github.com/microsoft/fluentui/tree/master/packages/icons)
+    package.
+`;
+
 export default {
     title: 'Atoms/Icon',
     component: Icon,
+    parameters: {
+        notes,
+    },
 };
 
 const IconContainer = styled.div`

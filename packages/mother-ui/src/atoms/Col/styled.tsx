@@ -28,7 +28,7 @@ const getWidth = (size?: number) => {
         return `${widths[size]}%`;
     }
 
-    return 100;
+    return '100%';
 };
 
 export const Col = styled.div<Props>`
