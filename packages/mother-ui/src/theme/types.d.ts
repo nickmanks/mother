@@ -6,6 +6,7 @@ declare type Variants =
     | 'danger'
     | 'info'
     | 'white'
+    | 'dark'
     | 'transparent';
 
 declare type Theme = {

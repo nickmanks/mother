@@ -18,6 +18,11 @@ jest.mock('@fluentui/react/lib/Icon', () => ({
     },
 }));
 
+jest.mock('lodash.uniqueId', () => ({
+    __esModule: true,
+    default: () => 'test-id',
+}));
+
 jest.mock('../theme/helpers', () => ({
     ...require.requireActual('../theme/helpers'),
     getRandomColor: jest.fn(() => '#random'),

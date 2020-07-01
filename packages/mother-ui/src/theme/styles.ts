@@ -6,4 +6,5 @@ export const shadows = {
 export const rounding = {
     regular: '5px',
     pill: '3rem',
+    circle: '50%',
 };

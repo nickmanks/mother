@@ -236,9 +236,9 @@ exports[`Storyshots Atoms/Button All 1`] = `
 
 .c1:disabled {
   cursor: not-allowed;
-  background: #a59cb2;
-  border: 1px solid #a59cb2;
-  color: #fff;
+  background: #d5d1db;
+  border: 1px solid #d5d1db;
+  color: #90849f;
 }
 
 .c3 {
@@ -280,9 +280,9 @@ exports[`Storyshots Atoms/Button All 1`] = `
 
 .c3:disabled {
   cursor: not-allowed;
-  background: #a59cb2;
-  border: 1px solid #a59cb2;
-  color: #fff;
+  background: #d5d1db;
+  border: 1px solid #d5d1db;
+  color: #90849f;
 }
 
 .c4 {
@@ -324,9 +324,9 @@ exports[`Storyshots Atoms/Button All 1`] = `
 
 .c4:disabled {
   cursor: not-allowed;
-  background: #a59cb2;
-  border: 1px solid #a59cb2;
-  color: #fff;
+  background: #d5d1db;
+  border: 1px solid #d5d1db;
+  color: #90849f;
 }
 
 .c5 {
@@ -368,9 +368,9 @@ exports[`Storyshots Atoms/Button All 1`] = `
 
 .c5:disabled {
   cursor: not-allowed;
-  background: #a59cb2;
-  border: 1px solid #a59cb2;
-  color: #fff;
+  background: #d5d1db;
+  border: 1px solid #d5d1db;
+  color: #90849f;
 }
 
 .c6 {
@@ -412,9 +412,9 @@ exports[`Storyshots Atoms/Button All 1`] = `
 
 .c6:disabled {
   cursor: not-allowed;
-  background: #a59cb2;
-  border: 1px solid #a59cb2;
-  color: #fff;
+  background: #d5d1db;
+  border: 1px solid #d5d1db;
+  color: #90849f;
 }
 
 .c7 {
@@ -456,9 +456,9 @@ exports[`Storyshots Atoms/Button All 1`] = `
 
 .c7:disabled {
   cursor: not-allowed;
-  background: #a59cb2;
-  border: 1px solid #a59cb2;
-  color: #fff;
+  background: #d5d1db;
+  border: 1px solid #d5d1db;
+  color: #90849f;
 }
 
 .c8 {
@@ -500,9 +500,9 @@ exports[`Storyshots Atoms/Button All 1`] = `
 
 .c8:disabled {
   cursor: not-allowed;
-  background: #a59cb2;
-  border: 1px solid #a59cb2;
-  color: #fff;
+  background: #d5d1db;
+  border: 1px solid #d5d1db;
+  color: #90849f;
 }
 
 .c9 {
@@ -544,9 +544,9 @@ exports[`Storyshots Atoms/Button All 1`] = `
 
 .c9:disabled {
   cursor: not-allowed;
-  background: #a59cb2;
-  border: 1px solid #a59cb2;
-  color: #fff;
+  background: #d5d1db;
+  border: 1px solid #d5d1db;
+  color: #90849f;
 }
 
 .c2 {
@@ -698,9 +698,9 @@ exports[`Storyshots Atoms/Button Custom Styles 1`] = `
 
 .c1:disabled {
   cursor: not-allowed;
-  background: #a59cb2;
-  border: 1px solid #a59cb2;
-  color: #fff;
+  background: #d5d1db;
+  border: 1px solid #d5d1db;
+  color: #90849f;
 }
 
 .c2 {
@@ -796,9 +796,9 @@ exports[`Storyshots Atoms/Button Disabled 1`] = `
 
 .c0:disabled {
   cursor: not-allowed;
-  background: #a59cb2;
-  border: 1px solid #a59cb2;
-  color: #fff;
+  background: #d5d1db;
+  border: 1px solid #d5d1db;
+  color: #90849f;
 }
 
 .c1 {
@@ -866,9 +866,9 @@ exports[`Storyshots Atoms/Button Icon 1`] = `
 
 .c1:disabled {
   cursor: not-allowed;
-  background: #a59cb2;
-  border: 1px solid #a59cb2;
-  color: #fff;
+  background: #d5d1db;
+  border: 1px solid #d5d1db;
+  color: #90849f;
 }
 
 .c2 {
@@ -967,9 +967,9 @@ exports[`Storyshots Atoms/Button Rounded 1`] = `
 
 .c0:disabled {
   cursor: not-allowed;
-  background: #a59cb2;
-  border: 1px solid #a59cb2;
-  color: #fff;
+  background: #d5d1db;
+  border: 1px solid #d5d1db;
+  color: #90849f;
 }
 
 .c1 {
@@ -994,6 +994,888 @@ exports[`Storyshots Atoms/Button Rounded 1`] = `
     </div>
   </div>
 </button>
+`;
+
+exports[`Storyshots Atoms/Checkbox All 1`] = `
+.c1 {
+  display: inline-block;
+  color: #433c4d;
+  cursor: pointer;
+  position: relative;
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+  font-weight: 200;
+  font-size: 16;
+  cursor: pointer;
+}
+
+.c1 span {
+  display: inline-block;
+  position: relative;
+  background-color: transparent;
+  width: 25px;
+  height: 25px;
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  border: 1px solid #720afb;
+  border-radius: 5px;
+  vertical-align: -6px;
+  margin-right: 0.5rem;
+  -webkit-transition: background-color 150ms 200ms, -webkit-transform 350ms cubic-bezier(0.78,-1.22,0.17,1.89);
+  -webkit-transition: background-color 150ms 200ms, transform 350ms cubic-bezier(0.78,-1.22,0.17,1.89);
+  transition: background-color 150ms 200ms, transform 350ms cubic-bezier(0.78,-1.22,0.17,1.89);
+  -webkit-transform: unset;
+  -ms-transform: unset;
+  transform: unset;
+}
+
+.c1 span:before {
+  content: '';
+  width: 0;
+  height: 2px;
+  background: #ac6efd;
+  position: absolute;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: 12px;
+  left: 9px;
+  -webkit-transition: width 50ms ease 50ms;
+  transition: width 50ms ease 50ms;
+  -webkit-transform-origin: 0% 0%;
+  -ms-transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
+}
+
+.c1 span:after {
+  content: '';
+  width: 0;
+  height: 2px;
+  background: #ac6efd;
+  position: absolute;
+  -webkit-transform: rotate(310deg);
+  -ms-transform: rotate(310deg);
+  transform: rotate(310deg);
+  top: 16px;
+  left: 10px;
+  -webkit-transition: width 50ms ease;
+  transition: width 50ms ease;
+  -webkit-transform-origin: 0% 0%;
+  -ms-transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
+}
+
+.c1:hover span:before {
+  width: 5px;
+  -webkit-transition: width 100ms ease;
+  transition: width 100ms ease;
+}
+
+.c1:hover span:after {
+  width: 10px;
+  -webkit-transition: width 150ms ease 100ms;
+  transition: width 150ms ease 100ms;
+}
+
+.c3 {
+  display: inline-block;
+  color: #433c4d;
+  cursor: pointer;
+  position: relative;
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+  font-weight: 200;
+  font-size: 16;
+  cursor: pointer;
+}
+
+.c3 span {
+  display: inline-block;
+  position: relative;
+  background-color: transparent;
+  width: 25px;
+  height: 25px;
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  border: 1px solid #b988fd;
+  border-radius: 5px;
+  vertical-align: -6px;
+  margin-right: 0.5rem;
+  -webkit-transition: background-color 150ms 200ms, -webkit-transform 350ms cubic-bezier(0.78,-1.22,0.17,1.89);
+  -webkit-transition: background-color 150ms 200ms, transform 350ms cubic-bezier(0.78,-1.22,0.17,1.89);
+  transition: background-color 150ms 200ms, transform 350ms cubic-bezier(0.78,-1.22,0.17,1.89);
+  -webkit-transform: unset;
+  -ms-transform: unset;
+  transform: unset;
+}
+
+.c3 span:before {
+  content: '';
+  width: 0;
+  height: 2px;
+  background: #f4ecff;
+  position: absolute;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: 12px;
+  left: 9px;
+  -webkit-transition: width 50ms ease 50ms;
+  transition: width 50ms ease 50ms;
+  -webkit-transform-origin: 0% 0%;
+  -ms-transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
+}
+
+.c3 span:after {
+  content: '';
+  width: 0;
+  height: 2px;
+  background: #f4ecff;
+  position: absolute;
+  -webkit-transform: rotate(310deg);
+  -ms-transform: rotate(310deg);
+  transform: rotate(310deg);
+  top: 16px;
+  left: 10px;
+  -webkit-transition: width 50ms ease;
+  transition: width 50ms ease;
+  -webkit-transform-origin: 0% 0%;
+  -ms-transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
+}
+
+.c3:hover span:before {
+  width: 5px;
+  -webkit-transition: width 100ms ease;
+  transition: width 100ms ease;
+}
+
+.c3:hover span:after {
+  width: 10px;
+  -webkit-transition: width 150ms ease 100ms;
+  transition: width 150ms ease 100ms;
+}
+
+.c4 {
+  display: inline-block;
+  color: #433c4d;
+  cursor: pointer;
+  position: relative;
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+  font-weight: 200;
+  font-size: 16;
+  cursor: pointer;
+}
+
+.c4 span {
+  display: inline-block;
+  position: relative;
+  background-color: transparent;
+  width: 25px;
+  height: 25px;
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  border: 1px solid #08c8b8;
+  border-radius: 5px;
+  vertical-align: -6px;
+  margin-right: 0.5rem;
+  -webkit-transition: background-color 150ms 200ms, -webkit-transform 350ms cubic-bezier(0.78,-1.22,0.17,1.89);
+  -webkit-transition: background-color 150ms 200ms, transform 350ms cubic-bezier(0.78,-1.22,0.17,1.89);
+  transition: background-color 150ms 200ms, transform 350ms cubic-bezier(0.78,-1.22,0.17,1.89);
+  -webkit-transform: unset;
+  -ms-transform: unset;
+  transform: unset;
+}
+
+.c4 span:before {
+  content: '';
+  width: 0;
+  height: 2px;
+  background: #3ff7e8;
+  position: absolute;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: 12px;
+  left: 9px;
+  -webkit-transition: width 50ms ease 50ms;
+  transition: width 50ms ease 50ms;
+  -webkit-transform-origin: 0% 0%;
+  -ms-transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
+}
+
+.c4 span:after {
+  content: '';
+  width: 0;
+  height: 2px;
+  background: #3ff7e8;
+  position: absolute;
+  -webkit-transform: rotate(310deg);
+  -ms-transform: rotate(310deg);
+  transform: rotate(310deg);
+  top: 16px;
+  left: 10px;
+  -webkit-transition: width 50ms ease;
+  transition: width 50ms ease;
+  -webkit-transform-origin: 0% 0%;
+  -ms-transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
+}
+
+.c4:hover span:before {
+  width: 5px;
+  -webkit-transition: width 100ms ease;
+  transition: width 100ms ease;
+}
+
+.c4:hover span:after {
+  width: 10px;
+  -webkit-transition: width 150ms ease 100ms;
+  transition: width 150ms ease 100ms;
+}
+
+.c5 {
+  display: inline-block;
+  color: #433c4d;
+  cursor: pointer;
+  position: relative;
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+  font-weight: 200;
+  font-size: 16;
+  cursor: pointer;
+}
+
+.c5 span {
+  display: inline-block;
+  position: relative;
+  background-color: transparent;
+  width: 25px;
+  height: 25px;
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  border: 1px solid #fc9b57;
+  border-radius: 5px;
+  vertical-align: -6px;
+  margin-right: 0.5rem;
+  -webkit-transition: background-color 150ms 200ms, -webkit-transform 350ms cubic-bezier(0.78,-1.22,0.17,1.89);
+  -webkit-transition: background-color 150ms 200ms, transform 350ms cubic-bezier(0.78,-1.22,0.17,1.89);
+  transition: background-color 150ms 200ms, transform 350ms cubic-bezier(0.78,-1.22,0.17,1.89);
+  -webkit-transform: unset;
+  -ms-transform: unset;
+  transform: unset;
+}
+
+.c5 span:before {
+  content: '';
+  width: 0;
+  height: 2px;
+  background: #fed7bb;
+  position: absolute;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: 12px;
+  left: 9px;
+  -webkit-transition: width 50ms ease 50ms;
+  transition: width 50ms ease 50ms;
+  -webkit-transform-origin: 0% 0%;
+  -ms-transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
+}
+
+.c5 span:after {
+  content: '';
+  width: 0;
+  height: 2px;
+  background: #fed7bb;
+  position: absolute;
+  -webkit-transform: rotate(310deg);
+  -ms-transform: rotate(310deg);
+  transform: rotate(310deg);
+  top: 16px;
+  left: 10px;
+  -webkit-transition: width 50ms ease;
+  transition: width 50ms ease;
+  -webkit-transform-origin: 0% 0%;
+  -ms-transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
+}
+
+.c5:hover span:before {
+  width: 5px;
+  -webkit-transition: width 100ms ease;
+  transition: width 100ms ease;
+}
+
+.c5:hover span:after {
+  width: 10px;
+  -webkit-transition: width 150ms ease 100ms;
+  transition: width 150ms ease 100ms;
+}
+
+.c6 {
+  display: inline-block;
+  color: #433c4d;
+  cursor: pointer;
+  position: relative;
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+  font-weight: 200;
+  font-size: 16;
+  cursor: pointer;
+}
+
+.c6 span {
+  display: inline-block;
+  position: relative;
+  background-color: transparent;
+  width: 25px;
+  height: 25px;
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  border: 1px solid #fc4150;
+  border-radius: 5px;
+  vertical-align: -6px;
+  margin-right: 0.5rem;
+  -webkit-transition: background-color 150ms 200ms, -webkit-transform 350ms cubic-bezier(0.78,-1.22,0.17,1.89);
+  -webkit-transition: background-color 150ms 200ms, transform 350ms cubic-bezier(0.78,-1.22,0.17,1.89);
+  transition: background-color 150ms 200ms, transform 350ms cubic-bezier(0.78,-1.22,0.17,1.89);
+  -webkit-transform: unset;
+  -ms-transform: unset;
+  transform: unset;
+}
+
+.c6 span:before {
+  content: '';
+  width: 0;
+  height: 2px;
+  background: #fea5ac;
+  position: absolute;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: 12px;
+  left: 9px;
+  -webkit-transition: width 50ms ease 50ms;
+  transition: width 50ms ease 50ms;
+  -webkit-transform-origin: 0% 0%;
+  -ms-transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
+}
+
+.c6 span:after {
+  content: '';
+  width: 0;
+  height: 2px;
+  background: #fea5ac;
+  position: absolute;
+  -webkit-transform: rotate(310deg);
+  -ms-transform: rotate(310deg);
+  transform: rotate(310deg);
+  top: 16px;
+  left: 10px;
+  -webkit-transition: width 50ms ease;
+  transition: width 50ms ease;
+  -webkit-transform-origin: 0% 0%;
+  -ms-transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
+}
+
+.c6:hover span:before {
+  width: 5px;
+  -webkit-transition: width 100ms ease;
+  transition: width 100ms ease;
+}
+
+.c6:hover span:after {
+  width: 10px;
+  -webkit-transition: width 150ms ease 100ms;
+  transition: width 150ms ease 100ms;
+}
+
+.c7 {
+  display: inline-block;
+  color: #433c4d;
+  cursor: pointer;
+  position: relative;
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+  font-weight: 200;
+  font-size: 16;
+  cursor: pointer;
+}
+
+.c7 span {
+  display: inline-block;
+  position: relative;
+  background-color: transparent;
+  width: 25px;
+  height: 25px;
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  border: 1px solid #098dea;
+  border-radius: 5px;
+  vertical-align: -6px;
+  margin-right: 0.5rem;
+  -webkit-transition: background-color 150ms 200ms, -webkit-transform 350ms cubic-bezier(0.78,-1.22,0.17,1.89);
+  -webkit-transition: background-color 150ms 200ms, transform 350ms cubic-bezier(0.78,-1.22,0.17,1.89);
+  transition: background-color 150ms 200ms, transform 350ms cubic-bezier(0.78,-1.22,0.17,1.89);
+  -webkit-transform: unset;
+  -ms-transform: unset;
+  transform: unset;
+}
+
+.c7 span:before {
+  content: '';
+  width: 0;
+  height: 2px;
+  background: #60baf9;
+  position: absolute;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: 12px;
+  left: 9px;
+  -webkit-transition: width 50ms ease 50ms;
+  transition: width 50ms ease 50ms;
+  -webkit-transform-origin: 0% 0%;
+  -ms-transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
+}
+
+.c7 span:after {
+  content: '';
+  width: 0;
+  height: 2px;
+  background: #60baf9;
+  position: absolute;
+  -webkit-transform: rotate(310deg);
+  -ms-transform: rotate(310deg);
+  transform: rotate(310deg);
+  top: 16px;
+  left: 10px;
+  -webkit-transition: width 50ms ease;
+  transition: width 50ms ease;
+  -webkit-transform-origin: 0% 0%;
+  -ms-transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
+}
+
+.c7:hover span:before {
+  width: 5px;
+  -webkit-transition: width 100ms ease;
+  transition: width 100ms ease;
+}
+
+.c7:hover span:after {
+  width: 10px;
+  -webkit-transition: width 150ms ease 100ms;
+  transition: width 150ms ease 100ms;
+}
+
+.c2 {
+  display: none;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 label {
+  margin-right: 1rem;
+}
+
+<div
+  className="c0"
+>
+  <label
+    checked={false}
+    className="c1"
+  >
+    <input
+      checked={false}
+      className="c2"
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <span />
+     Primary 
+  </label>
+  <label
+    checked={false}
+    className="c3"
+  >
+    <input
+      checked={false}
+      className="c2"
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <span />
+     Secondary 
+  </label>
+  <label
+    checked={false}
+    className="c4"
+  >
+    <input
+      checked={false}
+      className="c2"
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <span />
+     Success 
+  </label>
+  <label
+    checked={false}
+    className="c5"
+  >
+    <input
+      checked={false}
+      className="c2"
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <span />
+     Warning 
+  </label>
+  <label
+    checked={false}
+    className="c6"
+  >
+    <input
+      checked={false}
+      className="c2"
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <span />
+     Danger 
+  </label>
+  <label
+    checked={false}
+    className="c7"
+  >
+    <input
+      checked={false}
+      className="c2"
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <span />
+     Info 
+  </label>
+</div>
+`;
+
+exports[`Storyshots Atoms/Checkbox Custom Styles 1`] = `
+.c0 {
+  display: inline-block;
+  color: #433c4d;
+  cursor: pointer;
+  position: relative;
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+  font-weight: 200;
+  font-size: 16;
+  cursor: pointer;
+}
+
+.c0 span {
+  display: inline-block;
+  position: relative;
+  background-color: transparent;
+  width: 25px;
+  height: 25px;
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  border: 1px solid #720afb;
+  border-radius: 5px;
+  vertical-align: -6px;
+  margin-right: 0.5rem;
+  -webkit-transition: background-color 150ms 200ms, -webkit-transform 350ms cubic-bezier(0.78,-1.22,0.17,1.89);
+  -webkit-transition: background-color 150ms 200ms, transform 350ms cubic-bezier(0.78,-1.22,0.17,1.89);
+  transition: background-color 150ms 200ms, transform 350ms cubic-bezier(0.78,-1.22,0.17,1.89);
+  -webkit-transform: unset;
+  -ms-transform: unset;
+  transform: unset;
+}
+
+.c0 span:before {
+  content: '';
+  width: 0;
+  height: 2px;
+  background: #ac6efd;
+  position: absolute;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: 12px;
+  left: 9px;
+  -webkit-transition: width 50ms ease 50ms;
+  transition: width 50ms ease 50ms;
+  -webkit-transform-origin: 0% 0%;
+  -ms-transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
+}
+
+.c0 span:after {
+  content: '';
+  width: 0;
+  height: 2px;
+  background: #ac6efd;
+  position: absolute;
+  -webkit-transform: rotate(310deg);
+  -ms-transform: rotate(310deg);
+  transform: rotate(310deg);
+  top: 16px;
+  left: 10px;
+  -webkit-transition: width 50ms ease;
+  transition: width 50ms ease;
+  -webkit-transform-origin: 0% 0%;
+  -ms-transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
+}
+
+.c0:hover span:before {
+  width: 5px;
+  -webkit-transition: width 100ms ease;
+  transition: width 100ms ease;
+}
+
+.c0:hover span:after {
+  width: 10px;
+  -webkit-transition: width 150ms ease 100ms;
+  transition: width 150ms ease 100ms;
+}
+
+.c1 {
+  display: none;
+}
+
+<label
+  checked={false}
+  className="c0 custom-checkbox"
+>
+  <input
+    checked={false}
+    className="c1"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <span />
+   Custom Styles 
+</label>
+`;
+
+exports[`Storyshots Atoms/Checkbox Disabled 1`] = `
+.c0 {
+  display: inline-block;
+  color: #433c4d;
+  cursor: pointer;
+  position: relative;
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+  font-weight: 200;
+  font-size: 16;
+  cursor: not-allowed;
+}
+
+.c0 span {
+  display: inline-block;
+  position: relative;
+  background-color: #e2dfe6;
+  width: 25px;
+  height: 25px;
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  border: 1px solid #90849f;
+  border-radius: 5px;
+  vertical-align: -6px;
+  margin-right: 0.5rem;
+  -webkit-transition: background-color 150ms 200ms, -webkit-transform 350ms cubic-bezier(0.78,-1.22,0.17,1.89);
+  -webkit-transition: background-color 150ms 200ms, transform 350ms cubic-bezier(0.78,-1.22,0.17,1.89);
+  transition: background-color 150ms 200ms, transform 350ms cubic-bezier(0.78,-1.22,0.17,1.89);
+  -webkit-transform: unset;
+  -ms-transform: unset;
+  transform: unset;
+}
+
+.c0 span:before {
+  content: '';
+  width: 0;
+  height: 2px;
+  background: #ac6efd;
+  position: absolute;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: 12px;
+  left: 9px;
+  -webkit-transition: width 50ms ease 50ms;
+  transition: width 50ms ease 50ms;
+  -webkit-transform-origin: 0% 0%;
+  -ms-transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
+}
+
+.c0 span:after {
+  content: '';
+  width: 0;
+  height: 2px;
+  background: #ac6efd;
+  position: absolute;
+  -webkit-transform: rotate(310deg);
+  -ms-transform: rotate(310deg);
+  transform: rotate(310deg);
+  top: 16px;
+  left: 10px;
+  -webkit-transition: width 50ms ease;
+  transition: width 50ms ease;
+  -webkit-transform-origin: 0% 0%;
+  -ms-transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
+}
+
+.c0:hover span:before {
+  width: 5px;
+  -webkit-transition: width 100ms ease;
+  transition: width 100ms ease;
+}
+
+.c0:hover span:after {
+  width: 10px;
+  -webkit-transition: width 150ms ease 100ms;
+  transition: width 150ms ease 100ms;
+}
+
+.c1 {
+  display: none;
+}
+
+<label
+  checked={false}
+  className="c0"
+  disabled={true}
+>
+  <input
+    checked={false}
+    className="c1"
+    disabled={true}
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <span />
+   Disabled 
+</label>
+`;
+
+exports[`Storyshots Atoms/Checkbox Initial 1`] = `
+.c0 {
+  display: inline-block;
+  color: #433c4d;
+  cursor: pointer;
+  position: relative;
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+  font-weight: 200;
+  font-size: 16;
+  cursor: pointer;
+}
+
+.c0 span {
+  display: inline-block;
+  position: relative;
+  background-color: #fff;
+  width: 25px;
+  height: 25px;
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  border: 1px solid #720afb;
+  border-radius: 5px;
+  vertical-align: -6px;
+  margin-right: 0.5rem;
+  -webkit-transition: background-color 150ms 200ms, -webkit-transform 350ms cubic-bezier(0.78,-1.22,0.17,1.89);
+  -webkit-transition: background-color 150ms 200ms, transform 350ms cubic-bezier(0.78,-1.22,0.17,1.89);
+  transition: background-color 150ms 200ms, transform 350ms cubic-bezier(0.78,-1.22,0.17,1.89);
+  -webkit-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+.c0 span:before {
+  content: '';
+  width: 5px;
+  height: 2px;
+  background: #720afb;
+  position: absolute;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: 12px;
+  left: 9px;
+  -webkit-transition: width 50ms ease 50ms;
+  transition: width 50ms ease 50ms;
+  -webkit-transform-origin: 0% 0%;
+  -ms-transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
+}
+
+.c0 span:after {
+  content: '';
+  width: 10px;
+  height: 2px;
+  background: #720afb;
+  position: absolute;
+  -webkit-transform: rotate(310deg);
+  -ms-transform: rotate(310deg);
+  transform: rotate(310deg);
+  top: 16px;
+  left: 10px;
+  -webkit-transition: width 50ms ease;
+  transition: width 50ms ease;
+  -webkit-transform-origin: 0% 0%;
+  -ms-transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
+}
+
+.c0:hover span:before {
+  width: 5px;
+  -webkit-transition: width 100ms ease;
+  transition: width 100ms ease;
+}
+
+.c0:hover span:after {
+  width: 10px;
+  -webkit-transition: width 150ms ease 100ms;
+  transition: width 150ms ease 100ms;
+}
+
+.c1 {
+  display: none;
+}
+
+<label
+  checked={true}
+  className="c0"
+>
+  <input
+    checked={true}
+    className="c1"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <span />
+   Default Checked 
+</label>
 `;
 
 exports[`Storyshots Atoms/Col All 1`] = `
@@ -1518,6 +2400,2538 @@ exports[`Storyshots Atoms/Icon Size 1`] = `
 </div>
 `;
 
+exports[`Storyshots Atoms/Input All 1`] = `
+.c0 {
+  display: block;
+  margin-bottom: -1px;
+}
+
+.c1 {
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  padding: 1px;
+  border-radius: 5px;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #a59cb2;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background: #fff;
+  -webkit-transition: border-color 0.2s linear;
+  transition: border-color 0.2s linear;
+  z-index: 1;
+  position: relative;
+}
+
+.c3 {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 20px;
+  font-size: 16px;
+  font-weight: 200;
+  color: #433c4d;
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+  height: 48px;
+}
+
+.c3::-webkit-input-placeholder {
+  color: #a59cb2;
+  font-weight: 200;
+}
+
+.c3::-moz-placeholder {
+  color: #a59cb2;
+  font-weight: 200;
+}
+
+.c3:-ms-input-placeholder {
+  color: #a59cb2;
+  font-weight: 200;
+}
+
+.c3::placeholder {
+  color: #a59cb2;
+  font-weight: 200;
+}
+
+.c3:focus {
+  border: none;
+  outline: none;
+}
+
+.c3:active {
+  border: none;
+  outline: none;
+}
+
+.c3:disabled {
+  cursor: not-allowed;
+  background: #e2dfe6;
+  color: #fff;
+}
+
+.c4 {
+  background: #720afb;
+  content: '';
+  height: 0%;
+  width: 0%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transition: height 0.2s,width 0.2s 0.1s;
+  transition: height 0.2s,width 0.2s 0.1s;
+  z-index: 0;
+  border-radius: 5px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <input
+        className="c3"
+        onBlur={[Function]}
+        onFocus={[Function]}
+        placeholder="Basic input"
+      />
+    </div>
+    <div
+      className="c4"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Input Custom Styles 1`] = `
+.c1 {
+  display: block;
+  margin-bottom: -1px;
+}
+
+.c2 {
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+  color: #736783;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 2rem;
+  margin-left: 1px;
+}
+
+.c3 {
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  padding: 1px;
+  border-radius: 5px;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #a59cb2;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background: #fff;
+  -webkit-transition: border-color 0.2s linear;
+  transition: border-color 0.2s linear;
+  z-index: 1;
+  position: relative;
+}
+
+.c5 {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 20px;
+  font-size: 16px;
+  font-weight: 200;
+  color: #433c4d;
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+  height: 48px;
+}
+
+.c5::-webkit-input-placeholder {
+  color: #a59cb2;
+  font-weight: 200;
+}
+
+.c5::-moz-placeholder {
+  color: #a59cb2;
+  font-weight: 200;
+}
+
+.c5:-ms-input-placeholder {
+  color: #a59cb2;
+  font-weight: 200;
+}
+
+.c5::placeholder {
+  color: #a59cb2;
+  font-weight: 200;
+}
+
+.c5:focus {
+  border: none;
+  outline: none;
+}
+
+.c5:active {
+  border: none;
+  outline: none;
+}
+
+.c5:disabled {
+  cursor: not-allowed;
+  background: #e2dfe6;
+  color: #fff;
+}
+
+.c6 {
+  background: #720afb;
+  content: '';
+  height: 0%;
+  width: 0%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transition: height 0.2s,width 0.2s 0.1s;
+  transition: height 0.2s,width 0.2s 0.1s;
+  z-index: 0;
+  border-radius: 5px;
+}
+
+.c0 > div {
+  margin-top: 1rem;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1 custom-input"
+  >
+    <label
+      className="c2"
+    >
+      Custom
+    </label>
+    <div
+      className="c3"
+    >
+      <div
+        className="c4"
+      >
+        <i>
+          HomeGroup
+        </i>
+        <input
+          className="c5"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          placeholder="Custom styles"
+        />
+      </div>
+      <div
+        className="c6"
+      />
+    </div>
+  </div>
+  <div
+    className="c1"
+  >
+    <div
+      className="c3"
+    >
+      <div
+        className="c4"
+      >
+        <i>
+          HomeGroup
+        </i>
+        <input
+          className="c5"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          placeholder="Custom icon styles"
+        />
+      </div>
+      <div
+        className="c6"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Input Disabled 1`] = `
+.c1 {
+  display: block;
+  margin-bottom: -1px;
+}
+
+.c2 {
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  padding: 1px;
+  border-radius: 5px;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #a59cb2;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background: #e2dfe6;
+  -webkit-transition: border-color 0.2s linear;
+  transition: border-color 0.2s linear;
+  z-index: 1;
+  position: relative;
+}
+
+.c4 {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 20px;
+  font-size: 16px;
+  font-weight: 200;
+  color: #433c4d;
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+  height: 48px;
+}
+
+.c4::-webkit-input-placeholder {
+  color: #a59cb2;
+  font-weight: 200;
+}
+
+.c4::-moz-placeholder {
+  color: #a59cb2;
+  font-weight: 200;
+}
+
+.c4:-ms-input-placeholder {
+  color: #a59cb2;
+  font-weight: 200;
+}
+
+.c4::placeholder {
+  color: #a59cb2;
+  font-weight: 200;
+}
+
+.c4:focus {
+  border: none;
+  outline: none;
+}
+
+.c4:active {
+  border: none;
+  outline: none;
+}
+
+.c4:disabled {
+  cursor: not-allowed;
+  background: #e2dfe6;
+  color: #fff;
+}
+
+.c5 {
+  background: #720afb;
+  content: '';
+  height: 0%;
+  width: 0%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transition: height 0.2s,width 0.2s 0.1s;
+  transition: height 0.2s,width 0.2s 0.1s;
+  z-index: 0;
+  border-radius: 5px;
+}
+
+.c0 > div {
+  margin-top: 1rem;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+        disabled={true}
+      >
+        <input
+          className="c4"
+          disabled={true}
+          onBlur={[Function]}
+          onFocus={[Function]}
+          placeholder="Disabled"
+        />
+      </div>
+      <div
+        className="c5"
+      />
+    </div>
+  </div>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+        disabled={true}
+      >
+        <i>
+          HomeGroup
+        </i>
+        <input
+          className="c4"
+          disabled={true}
+          onBlur={[Function]}
+          onFocus={[Function]}
+          placeholder="Disabled with icon"
+        />
+      </div>
+      <div
+        className="c5"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Input Fill Variants 1`] = `
+.c1 {
+  display: block;
+  margin-bottom: -1px;
+}
+
+.c2 {
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+  color: #736783;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 2rem;
+  margin-left: 1px;
+}
+
+.c3 {
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  padding: 1px;
+  border-radius: 5px;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background: #fff;
+  -webkit-transition: border-color 0.2s linear;
+  transition: border-color 0.2s linear;
+  z-index: 1;
+  position: relative;
+}
+
+.c5 {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 20px;
+  font-size: 16px;
+  font-weight: 200;
+  color: #433c4d;
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+  height: 48px;
+}
+
+.c5::-webkit-input-placeholder {
+  color: #a59cb2;
+  font-weight: 200;
+}
+
+.c5::-moz-placeholder {
+  color: #a59cb2;
+  font-weight: 200;
+}
+
+.c5:-ms-input-placeholder {
+  color: #a59cb2;
+  font-weight: 200;
+}
+
+.c5::placeholder {
+  color: #a59cb2;
+  font-weight: 200;
+}
+
+.c5:focus {
+  border: none;
+  outline: none;
+}
+
+.c5:active {
+  border: none;
+  outline: none;
+}
+
+.c5:disabled {
+  cursor: not-allowed;
+  background: #e2dfe6;
+  color: #fff;
+}
+
+.c6 {
+  background: #720afb;
+  content: '';
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transition: height 0.2s,width 0.2s 0.1s;
+  transition: height 0.2s,width 0.2s 0.1s;
+  z-index: 0;
+  border-radius: 5px;
+}
+
+.c7 {
+  background: #b988fd;
+  content: '';
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transition: height 0.2s,width 0.2s 0.1s;
+  transition: height 0.2s,width 0.2s 0.1s;
+  z-index: 0;
+  border-radius: 5px;
+}
+
+.c8 {
+  background: #08c8b8;
+  content: '';
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transition: height 0.2s,width 0.2s 0.1s;
+  transition: height 0.2s,width 0.2s 0.1s;
+  z-index: 0;
+  border-radius: 5px;
+}
+
+.c9 {
+  background: #fc4150;
+  content: '';
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transition: height 0.2s,width 0.2s 0.1s;
+  transition: height 0.2s,width 0.2s 0.1s;
+  z-index: 0;
+  border-radius: 5px;
+}
+
+.c10 {
+  background: #fc9b57;
+  content: '';
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transition: height 0.2s,width 0.2s 0.1s;
+  transition: height 0.2s,width 0.2s 0.1s;
+  z-index: 0;
+  border-radius: 5px;
+}
+
+.c11 {
+  background: #098dea;
+  content: '';
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transition: height 0.2s,width 0.2s 0.1s;
+  transition: height 0.2s,width 0.2s 0.1s;
+  z-index: 0;
+  border-radius: 5px;
+}
+
+.c0 > div {
+  margin-top: 1rem;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+    >
+      Primary
+    </label>
+    <div
+      className="c3"
+    >
+      <div
+        className="c4"
+      >
+        <i>
+          HomeGroup
+        </i>
+        <input
+          className="c5"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          placeholder="Primary"
+        />
+      </div>
+      <div
+        className="c6"
+      />
+    </div>
+  </div>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+    >
+      Secondary
+    </label>
+    <div
+      className="c3"
+    >
+      <div
+        className="c4"
+      >
+        <i>
+          Commitments
+        </i>
+        <input
+          className="c5"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          placeholder="Secondary"
+        />
+      </div>
+      <div
+        className="c7"
+      />
+    </div>
+  </div>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+    >
+      Success
+    </label>
+    <div
+      className="c3"
+    >
+      <div
+        className="c4"
+      >
+        <input
+          className="c5"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          placeholder="Success"
+        />
+        <i>
+          Accept
+        </i>
+      </div>
+      <div
+        className="c8"
+      />
+    </div>
+  </div>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+    >
+      Danger
+    </label>
+    <div
+      className="c3"
+    >
+      <div
+        className="c4"
+      >
+        <input
+          className="c5"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          placeholder="Danger"
+        />
+        <i>
+          AlertSolid
+        </i>
+      </div>
+      <div
+        className="c9"
+      />
+    </div>
+  </div>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+    >
+      Warning
+    </label>
+    <div
+      className="c3"
+    >
+      <div
+        className="c4"
+      >
+        <input
+          className="c5"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          placeholder="Warning"
+        />
+        <i>
+          Warning
+        </i>
+      </div>
+      <div
+        className="c10"
+      />
+    </div>
+  </div>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+    >
+      Info
+    </label>
+    <div
+      className="c3"
+    >
+      <div
+        className="c4"
+      >
+        <i>
+          Hotel
+        </i>
+        <input
+          className="c5"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          placeholder="Info"
+        />
+      </div>
+      <div
+        className="c11"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Input Icons 1`] = `
+.c1 {
+  display: block;
+  margin-bottom: -1px;
+}
+
+.c2 {
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  padding: 1px;
+  border-radius: 5px;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #a59cb2;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background: #fff;
+  -webkit-transition: border-color 0.2s linear;
+  transition: border-color 0.2s linear;
+  z-index: 1;
+  position: relative;
+}
+
+.c4 {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 20px;
+  font-size: 16px;
+  font-weight: 200;
+  color: #433c4d;
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+  height: 48px;
+}
+
+.c4::-webkit-input-placeholder {
+  color: #a59cb2;
+  font-weight: 200;
+}
+
+.c4::-moz-placeholder {
+  color: #a59cb2;
+  font-weight: 200;
+}
+
+.c4:-ms-input-placeholder {
+  color: #a59cb2;
+  font-weight: 200;
+}
+
+.c4::placeholder {
+  color: #a59cb2;
+  font-weight: 200;
+}
+
+.c4:focus {
+  border: none;
+  outline: none;
+}
+
+.c4:active {
+  border: none;
+  outline: none;
+}
+
+.c4:disabled {
+  cursor: not-allowed;
+  background: #e2dfe6;
+  color: #fff;
+}
+
+.c5 {
+  background: #720afb;
+  content: '';
+  height: 0%;
+  width: 0%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transition: height 0.2s,width 0.2s 0.1s;
+  transition: height 0.2s,width 0.2s 0.1s;
+  z-index: 0;
+  border-radius: 5px;
+}
+
+.c0 > div {
+  margin-top: 1rem;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+      >
+        <i>
+          Search
+        </i>
+        <input
+          className="c4"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          placeholder="Search the things"
+        />
+      </div>
+      <div
+        className="c5"
+      />
+    </div>
+  </div>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+      >
+        <input
+          className="c4"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          placeholder="Look at this data"
+        />
+        <i>
+          DelveAnalytics
+        </i>
+      </div>
+      <div
+        className="c5"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Input Label 1`] = `
+.c0 {
+  display: block;
+  margin-bottom: -1px;
+}
+
+.c1 {
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+  color: #736783;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 2rem;
+  margin-left: 1px;
+}
+
+.c2 {
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  padding: 1px;
+  border-radius: 5px;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #a59cb2;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background: #fff;
+  -webkit-transition: border-color 0.2s linear;
+  transition: border-color 0.2s linear;
+  z-index: 1;
+  position: relative;
+}
+
+.c4 {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 20px;
+  font-size: 16px;
+  font-weight: 200;
+  color: #433c4d;
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+  height: 48px;
+}
+
+.c4::-webkit-input-placeholder {
+  color: #a59cb2;
+  font-weight: 200;
+}
+
+.c4::-moz-placeholder {
+  color: #a59cb2;
+  font-weight: 200;
+}
+
+.c4:-ms-input-placeholder {
+  color: #a59cb2;
+  font-weight: 200;
+}
+
+.c4::placeholder {
+  color: #a59cb2;
+  font-weight: 200;
+}
+
+.c4:focus {
+  border: none;
+  outline: none;
+}
+
+.c4:active {
+  border: none;
+  outline: none;
+}
+
+.c4:disabled {
+  cursor: not-allowed;
+  background: #e2dfe6;
+  color: #fff;
+}
+
+.c5 {
+  background: #720afb;
+  content: '';
+  height: 0%;
+  width: 0%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transition: height 0.2s,width 0.2s 0.1s;
+  transition: height 0.2s,width 0.2s 0.1s;
+  z-index: 0;
+  border-radius: 5px;
+}
+
+<div
+  className="c0"
+>
+  <label
+    className="c1"
+  >
+    Label here
+  </label>
+  <div
+    className="c2"
+  >
+    <div
+      className="c3"
+    >
+      <input
+        className="c4"
+        onBlur={[Function]}
+        onFocus={[Function]}
+        placeholder="Input label"
+      />
+    </div>
+    <div
+      className="c5"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Input Variants 1`] = `
+.c1 {
+  display: block;
+  margin-bottom: -1px;
+}
+
+.c2 {
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+  color: #736783;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 2rem;
+  margin-left: 1px;
+}
+
+.c3 {
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  padding: 1px;
+  border-radius: 5px;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #a59cb2;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background: #fff;
+  -webkit-transition: border-color 0.2s linear;
+  transition: border-color 0.2s linear;
+  z-index: 1;
+  position: relative;
+}
+
+.c5 {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 20px;
+  font-size: 16px;
+  font-weight: 200;
+  color: #433c4d;
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+  height: 48px;
+}
+
+.c5::-webkit-input-placeholder {
+  color: #a59cb2;
+  font-weight: 200;
+}
+
+.c5::-moz-placeholder {
+  color: #a59cb2;
+  font-weight: 200;
+}
+
+.c5:-ms-input-placeholder {
+  color: #a59cb2;
+  font-weight: 200;
+}
+
+.c5::placeholder {
+  color: #a59cb2;
+  font-weight: 200;
+}
+
+.c5:focus {
+  border: none;
+  outline: none;
+}
+
+.c5:active {
+  border: none;
+  outline: none;
+}
+
+.c5:disabled {
+  cursor: not-allowed;
+  background: #e2dfe6;
+  color: #fff;
+}
+
+.c6 {
+  background: #720afb;
+  content: '';
+  height: 0%;
+  width: 0%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transition: height 0.2s,width 0.2s 0.1s;
+  transition: height 0.2s,width 0.2s 0.1s;
+  z-index: 0;
+  border-radius: 5px;
+}
+
+.c7 {
+  background: #b988fd;
+  content: '';
+  height: 0%;
+  width: 0%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transition: height 0.2s,width 0.2s 0.1s;
+  transition: height 0.2s,width 0.2s 0.1s;
+  z-index: 0;
+  border-radius: 5px;
+}
+
+.c8 {
+  background: #08c8b8;
+  content: '';
+  height: 0%;
+  width: 0%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transition: height 0.2s,width 0.2s 0.1s;
+  transition: height 0.2s,width 0.2s 0.1s;
+  z-index: 0;
+  border-radius: 5px;
+}
+
+.c9 {
+  background: #fc4150;
+  content: '';
+  height: 0%;
+  width: 0%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transition: height 0.2s,width 0.2s 0.1s;
+  transition: height 0.2s,width 0.2s 0.1s;
+  z-index: 0;
+  border-radius: 5px;
+}
+
+.c10 {
+  background: #fc9b57;
+  content: '';
+  height: 0%;
+  width: 0%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transition: height 0.2s,width 0.2s 0.1s;
+  transition: height 0.2s,width 0.2s 0.1s;
+  z-index: 0;
+  border-radius: 5px;
+}
+
+.c11 {
+  background: #098dea;
+  content: '';
+  height: 0%;
+  width: 0%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transition: height 0.2s,width 0.2s 0.1s;
+  transition: height 0.2s,width 0.2s 0.1s;
+  z-index: 0;
+  border-radius: 5px;
+}
+
+.c0 > div {
+  margin-top: 1rem;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+    >
+      Primary
+    </label>
+    <div
+      className="c3"
+    >
+      <div
+        className="c4"
+      >
+        <i>
+          HomeGroup
+        </i>
+        <input
+          className="c5"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          placeholder="Primary"
+        />
+      </div>
+      <div
+        className="c6"
+      />
+    </div>
+  </div>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+    >
+      Secondary
+    </label>
+    <div
+      className="c3"
+    >
+      <div
+        className="c4"
+      >
+        <i>
+          Commitments
+        </i>
+        <input
+          className="c5"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          placeholder="Secondary"
+        />
+      </div>
+      <div
+        className="c7"
+      />
+    </div>
+  </div>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+    >
+      Success
+    </label>
+    <div
+      className="c3"
+    >
+      <div
+        className="c4"
+      >
+        <input
+          className="c5"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          placeholder="Success"
+        />
+        <i>
+          Accept
+        </i>
+      </div>
+      <div
+        className="c8"
+      />
+    </div>
+  </div>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+    >
+      Danger
+    </label>
+    <div
+      className="c3"
+    >
+      <div
+        className="c4"
+      >
+        <input
+          className="c5"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          placeholder="Danger"
+        />
+        <i>
+          AlertSolid
+        </i>
+      </div>
+      <div
+        className="c9"
+      />
+    </div>
+  </div>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+    >
+      Warning
+    </label>
+    <div
+      className="c3"
+    >
+      <div
+        className="c4"
+      >
+        <input
+          className="c5"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          placeholder="Warning"
+        />
+        <i>
+          Warning
+        </i>
+      </div>
+      <div
+        className="c10"
+      />
+    </div>
+  </div>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+    >
+      Info
+    </label>
+    <div
+      className="c3"
+    >
+      <div
+        className="c4"
+      >
+        <i>
+          Hotel
+        </i>
+        <input
+          className="c5"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          placeholder="Info"
+        />
+      </div>
+      <div
+        className="c11"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Radio All 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 label {
+  margin-right: 1.5rem;
+}
+
+.c1 {
+  line-height: 3.3rem;
+  cursor: pointer;
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  color: #433c4d;
+  cursor: pointer;
+}
+
+.c1:hover > span > span {
+  -webkit-transform: scale(0.6);
+  -ms-transform: scale(0.6);
+  transform: scale(0.6);
+  opacity: 1;
+}
+
+.c2 {
+  display: none;
+}
+
+.c3 {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+  float: left;
+  margin: 12px 0px 10px 0;
+  border: 1px solid #720afb;
+  border-radius: 50%;
+  background-color: transparent;
+  margin-right: 0.5rem;
+}
+
+.c5 {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+  float: left;
+  margin: 12px 0px 10px 0;
+  border: 1px solid #b988fd;
+  border-radius: 50%;
+  background-color: transparent;
+  margin-right: 0.5rem;
+}
+
+.c7 {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+  float: left;
+  margin: 12px 0px 10px 0;
+  border: 1px solid #08c8b8;
+  border-radius: 50%;
+  background-color: transparent;
+  margin-right: 0.5rem;
+}
+
+.c9 {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+  float: left;
+  margin: 12px 0px 10px 0;
+  border: 1px solid #fc9b57;
+  border-radius: 50%;
+  background-color: transparent;
+  margin-right: 0.5rem;
+}
+
+.c11 {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+  float: left;
+  margin: 12px 0px 10px 0;
+  border: 1px solid #fc4150;
+  border-radius: 50%;
+  background-color: transparent;
+  margin-right: 0.5rem;
+}
+
+.c13 {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+  float: left;
+  margin: 12px 0px 10px 0;
+  border: 1px solid #098dea;
+  border-radius: 50%;
+  background-color: transparent;
+  margin-right: 0.5rem;
+}
+
+.c4 {
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  width: 1rem;
+  height: 1rem;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  display: block;
+  margin: 4px;
+  border-radius: 50%;
+  background-color: #ac6efd;
+  opacity: 0);
+}
+
+.c6 {
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  width: 1rem;
+  height: 1rem;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  display: block;
+  margin: 4px;
+  border-radius: 50%;
+  background-color: #f4ecff;
+  opacity: 0);
+}
+
+.c8 {
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  width: 1rem;
+  height: 1rem;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  display: block;
+  margin: 4px;
+  border-radius: 50%;
+  background-color: #3ff7e8;
+  opacity: 0);
+}
+
+.c10 {
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  width: 1rem;
+  height: 1rem;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  display: block;
+  margin: 4px;
+  border-radius: 50%;
+  background-color: #fed7bb;
+  opacity: 0);
+}
+
+.c12 {
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  width: 1rem;
+  height: 1rem;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  display: block;
+  margin: 4px;
+  border-radius: 50%;
+  background-color: #fea5ac;
+  opacity: 0);
+}
+
+.c14 {
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  width: 1rem;
+  height: 1rem;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  display: block;
+  margin: 4px;
+  border-radius: 50%;
+  background-color: #60baf9;
+  opacity: 0);
+}
+
+<div
+  className="c0"
+>
+  <label
+    className="c1"
+  >
+    <input
+      className="c2"
+      onChange={[Function]}
+      type="radio"
+    />
+    <span
+      className="c3"
+    >
+      <span
+        className="c4"
+      />
+    </span>
+     Primary 
+  </label>
+  <label
+    className="c1"
+  >
+    <input
+      className="c2"
+      onChange={[Function]}
+      type="radio"
+    />
+    <span
+      className="c5"
+    >
+      <span
+        className="c6"
+      />
+    </span>
+     Secondary 
+  </label>
+  <label
+    className="c1"
+  >
+    <input
+      className="c2"
+      onChange={[Function]}
+      type="radio"
+    />
+    <span
+      className="c7"
+    >
+      <span
+        className="c8"
+      />
+    </span>
+     Success 
+  </label>
+  <label
+    className="c1"
+  >
+    <input
+      className="c2"
+      onChange={[Function]}
+      type="radio"
+    />
+    <span
+      className="c9"
+    >
+      <span
+        className="c10"
+      />
+    </span>
+     Warning 
+  </label>
+  <label
+    className="c1"
+  >
+    <input
+      className="c2"
+      onChange={[Function]}
+      type="radio"
+    />
+    <span
+      className="c11"
+    >
+      <span
+        className="c12"
+      />
+    </span>
+     Danger 
+  </label>
+  <label
+    className="c1"
+  >
+    <input
+      className="c2"
+      onChange={[Function]}
+      type="radio"
+    />
+    <span
+      className="c13"
+    >
+      <span
+        className="c14"
+      />
+    </span>
+     Info 
+  </label>
+</div>
+`;
+
+exports[`Storyshots Atoms/Radio Custom Styles 1`] = `
+.c0 {
+  line-height: 3.3rem;
+  cursor: pointer;
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  color: #433c4d;
+  cursor: pointer;
+}
+
+.c0:hover > span > span {
+  -webkit-transform: scale(0.6);
+  -ms-transform: scale(0.6);
+  transform: scale(0.6);
+  opacity: 1;
+}
+
+.c1 {
+  display: none;
+}
+
+.c2 {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+  float: left;
+  margin: 12px 0px 10px 0;
+  border: 1px solid #720afb;
+  border-radius: 50%;
+  background-color: transparent;
+  margin-right: 0.5rem;
+}
+
+.c3 {
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  width: 1rem;
+  height: 1rem;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  display: block;
+  margin: 4px;
+  border-radius: 50%;
+  background-color: #ac6efd;
+  opacity: 0);
+}
+
+<label
+  className="c0 custom-radio"
+>
+  <input
+    className="c1"
+    onChange={[Function]}
+    type="radio"
+  />
+  <span
+    className="c2"
+  >
+    <span
+      className="c3"
+    />
+  </span>
+  Custom styles
+</label>
+`;
+
+exports[`Storyshots Atoms/Radio Disabled 1`] = `
+.c0 {
+  line-height: 3.3rem;
+  cursor: pointer;
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  color: #433c4d;
+  cursor: not-allowed;
+}
+
+.c0:hover > span > span {
+  -webkit-transform: scale(0.6);
+  -ms-transform: scale(0.6);
+  transform: scale(0.6);
+  opacity: 1;
+}
+
+.c1 {
+  display: none;
+}
+
+.c2 {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+  float: left;
+  margin: 12px 0px 10px 0;
+  border: 1px solid #90849f;
+  border-radius: 50%;
+  background-color: #e2dfe6;
+  margin-right: 0.5rem;
+}
+
+.c3 {
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  width: 1rem;
+  height: 1rem;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  display: block;
+  margin: 4px;
+  border-radius: 50%;
+  background-color: #ac6efd;
+  opacity: 0);
+}
+
+<label
+  className="c0"
+  disabled={true}
+>
+  <input
+    className="c1"
+    disabled={true}
+    onChange={[Function]}
+    type="radio"
+  />
+  <span
+    className="c2"
+    disabled={true}
+  >
+    <span
+      className="c3"
+      disabled={true}
+    />
+  </span>
+  Disabled
+</label>
+`;
+
+exports[`Storyshots Atoms/Radio Selected 1`] = `
+.c0 {
+  line-height: 3.3rem;
+  cursor: pointer;
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  color: #433c4d;
+  cursor: pointer;
+}
+
+.c0:hover > span > span {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+}
+
+.c1 {
+  display: none;
+}
+
+.c2 {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+  float: left;
+  margin: 12px 0px 10px 0;
+  border: 1px solid #720afb;
+  border-radius: 50%;
+  background-color: transparent;
+  margin-right: 0.5rem;
+}
+
+.c3 {
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  width: 1rem;
+  height: 1rem;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  display: block;
+  margin: 4px;
+  border-radius: 50%;
+  background-color: #720afb;
+  opacity: 1;
+}
+
+<label
+  className="c0"
+  selected={true}
+>
+  <input
+    checked={true}
+    className="c1"
+    onChange={[Function]}
+    type="radio"
+  />
+  <span
+    className="c2"
+    selected={true}
+  >
+    <span
+      className="c3"
+      selected={true}
+    />
+  </span>
+  Selected
+</label>
+`;
+
+exports[`Storyshots Atoms/RadioGroup All 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 label {
+  margin-right: 1.5rem;
+}
+
+.c1 {
+  line-height: 3.3rem;
+  cursor: pointer;
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  color: #433c4d;
+  cursor: pointer;
+}
+
+.c1:hover > span > span {
+  -webkit-transform: scale(0.6);
+  -ms-transform: scale(0.6);
+  transform: scale(0.6);
+  opacity: 1;
+}
+
+.c2 {
+  display: none;
+}
+
+.c3 {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+  float: left;
+  margin: 12px 0px 10px 0;
+  border: 1px solid #720afb;
+  border-radius: 50%;
+  background-color: transparent;
+  margin-right: 0.5rem;
+}
+
+.c5 {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+  float: left;
+  margin: 12px 0px 10px 0;
+  border: 1px solid #b988fd;
+  border-radius: 50%;
+  background-color: transparent;
+  margin-right: 0.5rem;
+}
+
+.c7 {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+  float: left;
+  margin: 12px 0px 10px 0;
+  border: 1px solid #08c8b8;
+  border-radius: 50%;
+  background-color: transparent;
+  margin-right: 0.5rem;
+}
+
+.c9 {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+  float: left;
+  margin: 12px 0px 10px 0;
+  border: 1px solid #fc9b57;
+  border-radius: 50%;
+  background-color: transparent;
+  margin-right: 0.5rem;
+}
+
+.c11 {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+  float: left;
+  margin: 12px 0px 10px 0;
+  border: 1px solid #fc4150;
+  border-radius: 50%;
+  background-color: transparent;
+  margin-right: 0.5rem;
+}
+
+.c13 {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+  float: left;
+  margin: 12px 0px 10px 0;
+  border: 1px solid #098dea;
+  border-radius: 50%;
+  background-color: transparent;
+  margin-right: 0.5rem;
+}
+
+.c4 {
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  width: 1rem;
+  height: 1rem;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  display: block;
+  margin: 4px;
+  border-radius: 50%;
+  background-color: #ac6efd;
+  opacity: 0);
+}
+
+.c6 {
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  width: 1rem;
+  height: 1rem;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  display: block;
+  margin: 4px;
+  border-radius: 50%;
+  background-color: #f4ecff;
+  opacity: 0);
+}
+
+.c8 {
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  width: 1rem;
+  height: 1rem;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  display: block;
+  margin: 4px;
+  border-radius: 50%;
+  background-color: #3ff7e8;
+  opacity: 0);
+}
+
+.c10 {
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  width: 1rem;
+  height: 1rem;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  display: block;
+  margin: 4px;
+  border-radius: 50%;
+  background-color: #fed7bb;
+  opacity: 0);
+}
+
+.c12 {
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  width: 1rem;
+  height: 1rem;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  display: block;
+  margin: 4px;
+  border-radius: 50%;
+  background-color: #fea5ac;
+  opacity: 0);
+}
+
+.c14 {
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  width: 1rem;
+  height: 1rem;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  display: block;
+  margin: 4px;
+  border-radius: 50%;
+  background-color: #60baf9;
+  opacity: 0);
+}
+
+<div
+  className="c0"
+>
+  <label
+    className="c1"
+  >
+    <input
+      className="c2"
+      onChange={[Function]}
+      type="radio"
+    />
+    <span
+      className="c3"
+    >
+      <span
+        className="c4"
+      />
+    </span>
+     Primary 
+  </label>
+  <label
+    className="c1"
+  >
+    <input
+      className="c2"
+      onChange={[Function]}
+      type="radio"
+    />
+    <span
+      className="c5"
+    >
+      <span
+        className="c6"
+      />
+    </span>
+     Secondary 
+  </label>
+  <label
+    className="c1"
+  >
+    <input
+      className="c2"
+      onChange={[Function]}
+      type="radio"
+    />
+    <span
+      className="c7"
+    >
+      <span
+        className="c8"
+      />
+    </span>
+     Success 
+  </label>
+  <label
+    className="c1"
+  >
+    <input
+      className="c2"
+      onChange={[Function]}
+      type="radio"
+    />
+    <span
+      className="c9"
+    >
+      <span
+        className="c10"
+      />
+    </span>
+     Warning 
+  </label>
+  <label
+    className="c1"
+  >
+    <input
+      className="c2"
+      onChange={[Function]}
+      type="radio"
+    />
+    <span
+      className="c11"
+    >
+      <span
+        className="c12"
+      />
+    </span>
+     Danger 
+  </label>
+  <label
+    className="c1"
+  >
+    <input
+      className="c2"
+      onChange={[Function]}
+      type="radio"
+    />
+    <span
+      className="c13"
+    >
+      <span
+        className="c14"
+      />
+    </span>
+     Info 
+  </label>
+</div>
+`;
+
+exports[`Storyshots Atoms/RadioGroup Custom Styles 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 label {
+  margin-right: 1.5rem;
+}
+
+.c1 {
+  line-height: 3.3rem;
+  cursor: pointer;
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  color: #433c4d;
+  cursor: pointer;
+}
+
+.c1:hover > span > span {
+  -webkit-transform: scale(0.6);
+  -ms-transform: scale(0.6);
+  transform: scale(0.6);
+  opacity: 1;
+}
+
+.c2 {
+  display: none;
+}
+
+.c3 {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+  float: left;
+  margin: 12px 0px 10px 0;
+  border: 1px solid #720afb;
+  border-radius: 50%;
+  background-color: transparent;
+  margin-right: 0.5rem;
+}
+
+.c4 {
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  width: 1rem;
+  height: 1rem;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  display: block;
+  margin: 4px;
+  border-radius: 50%;
+  background-color: #ac6efd;
+  opacity: 0);
+}
+
+<div
+  className="c0 custom-radio-group"
+>
+  <label
+    className="c1"
+  >
+    <input
+      className="c2"
+      onChange={[Function]}
+      type="radio"
+    />
+    <span
+      className="c3"
+    >
+      <span
+        className="c4"
+      />
+    </span>
+    Custom
+  </label>
+  <label
+    className="c1"
+  >
+    <input
+      className="c2"
+      onChange={[Function]}
+      type="radio"
+    />
+    <span
+      className="c3"
+    >
+      <span
+        className="c4"
+      />
+    </span>
+    Styles
+  </label>
+</div>
+`;
+
+exports[`Storyshots Atoms/RadioGroup Vertical 1`] = `
+.c0 {
+  display: grid;
+}
+
+.c0 label {
+  margin-right: unset;
+}
+
+.c1 {
+  line-height: 3.3rem;
+  cursor: pointer;
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  color: #433c4d;
+  cursor: pointer;
+}
+
+.c1:hover > span > span {
+  -webkit-transform: scale(0.6);
+  -ms-transform: scale(0.6);
+  transform: scale(0.6);
+  opacity: 1;
+}
+
+.c5 {
+  line-height: 3.3rem;
+  cursor: pointer;
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  color: #433c4d;
+  cursor: not-allowed;
+}
+
+.c5:hover > span > span {
+  -webkit-transform: scale(0.6);
+  -ms-transform: scale(0.6);
+  transform: scale(0.6);
+  opacity: 1;
+}
+
+.c2 {
+  display: none;
+}
+
+.c3 {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+  float: left;
+  margin: 12px 0px 10px 0;
+  border: 1px solid #720afb;
+  border-radius: 50%;
+  background-color: transparent;
+  margin-right: 0.5rem;
+}
+
+.c6 {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+  float: left;
+  margin: 12px 0px 10px 0;
+  border: 1px solid #90849f;
+  border-radius: 50%;
+  background-color: #e2dfe6;
+  margin-right: 0.5rem;
+}
+
+.c4 {
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  width: 1rem;
+  height: 1rem;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  display: block;
+  margin: 4px;
+  border-radius: 50%;
+  background-color: #ac6efd;
+  opacity: 0);
+}
+
+<div
+  className="c0"
+>
+  <label
+    className="c1"
+  >
+    <input
+      className="c2"
+      onChange={[Function]}
+      type="radio"
+    />
+    <span
+      className="c3"
+    >
+      <span
+        className="c4"
+      />
+    </span>
+    One
+  </label>
+  <label
+    className="c1"
+  >
+    <input
+      className="c2"
+      onChange={[Function]}
+      type="radio"
+    />
+    <span
+      className="c3"
+    >
+      <span
+        className="c4"
+      />
+    </span>
+    Two
+  </label>
+  <label
+    className="c1"
+  >
+    <input
+      className="c2"
+      onChange={[Function]}
+      type="radio"
+    />
+    <span
+      className="c3"
+    >
+      <span
+        className="c4"
+      />
+    </span>
+    Three
+  </label>
+  <label
+    className="c1"
+  >
+    <input
+      className="c2"
+      onChange={[Function]}
+      type="radio"
+    />
+    <span
+      className="c3"
+    >
+      <span
+        className="c4"
+      />
+    </span>
+    Four
+  </label>
+  <label
+    className="c5"
+    disabled={true}
+  >
+    <input
+      className="c2"
+      disabled={true}
+      onChange={[Function]}
+      type="radio"
+    />
+    <span
+      className="c6"
+      disabled={true}
+    >
+      <span
+        className="c4"
+        disabled={true}
+      />
+    </span>
+    Disabled
+  </label>
+</div>
+`;
+
 exports[`Storyshots Atoms/Row All 1`] = `
 .c0 {
   width: 100%;
@@ -1565,6 +4979,62 @@ exports[`Storyshots Atoms/Row All 1`] = `
   </div>
   <div
     className="c1"
+  >
+    <div
+      className="c2"
+      color="#random"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Row Custom Styles 1`] = `
+.c0 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+}
+
+.c1 {
+  width: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  font-family: 'Euclid','Inter',-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue ',sans-serif;
+}
+
+.c2 {
+  background: ##random;
+  height: 5rem;
+  border-radius: 5px;
+  width: 100%;
+}
+
+<div
+  className="c0"
+  width="1200px"
+>
+  <div
+    className="c1 custom-row"
+  >
+    <div
+      className="c2"
+      color="#random"
+    />
+  </div>
+  <div
+    className="c1 custom-row"
   >
     <div
       className="c2"

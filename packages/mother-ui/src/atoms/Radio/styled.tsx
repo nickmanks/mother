@@ -38,7 +38,7 @@ export const Label = styled.label<Props>`
     &:hover {
         > span > span {
             transform: ${({ selected }) =>
-                selected ? 'scale(1)' : 'scale(0.8)'};
+                selected ? 'scale(1)' : 'scale(0.6)'};
             opacity: 1;
         }
     }

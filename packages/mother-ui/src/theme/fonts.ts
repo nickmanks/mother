@@ -19,6 +19,7 @@ export const fonts = {
     weight: {
         light: 200,
         regular: 300,
+        medium: 400,
         bold: 500,
         extrabold: 600,
         black: 800,

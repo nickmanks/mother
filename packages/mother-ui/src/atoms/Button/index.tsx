@@ -76,7 +76,7 @@ const Button: React.FC<Props> = ({
                 <PrependIcon
                     className={iconClass}
                     name={prepend}
-                    variant={'white'}
+                    variant={variant === 'transparent' ? 'dark' : 'white'}
                     size={18}
                 />
             )}
@@ -85,7 +85,7 @@ const Button: React.FC<Props> = ({
                 <AppendIcon
                     className={iconClass}
                     name={append}
-                    variant={'white'}
+                    variant={variant === 'transparent' ? 'dark' : 'white'}
                     size={18}
                 />
             )}
