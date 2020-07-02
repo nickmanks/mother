@@ -4,12 +4,17 @@ import { StyledButton, Wrapper, List, ListItem } from './styled';
 
 export interface Props extends React.HTMLAttributes<HTMLButtonElement> {
     /**
+     * Child list component
+     */
+    children?: Array<React.ReactNode>;
+
+    /**
      * Theme provider object
      */
     theme?: Theme;
 
     /**
-     * Custom class name
+     * Custom button class name
      */
     className?: string;
 
@@ -17,30 +22,51 @@ export interface Props extends React.HTMLAttributes<HTMLButtonElement> {
      * A color variant
      */
     variant?: Variants;
+
+    /**
+     * Custom list class name
+     */
+    listClassName?: string;
+
+    /**
+     * Title of dropdown
+     */
+    title?: string;
+
+    /**
+     * True if dropdown is disabled
+     */
+    disabled?: boolean;
 }
 
-const Dropdown: React.FC<Props> = ({ theme, className, variant }) => {
+const Dropdown: React.FC<Props> = ({
+    children,
+    theme,
+    className,
+    variant,
+    listClassName,
+    title,
+    disabled,
+}) => {
     const [open, setOpen] = useState(false);
 
     return (
-        <Wrapper>
+        <Wrapper className={className}>
             <StyledButton
                 theme={theme}
                 variant={variant}
-                open={open}
                 append={'ChevronDown'}
+                disabled={disabled}
+                open={open}
                 onClick={() => setOpen(!open)}
             >
-                Dropdown
+                {title}
             </StyledButton>
-            {open && (
-                <List>
-                    <ListItem index={1}>Option 1</ListItem>
-                    <ListItem index={2}>Option 2</ListItem>
-                    <ListItem index={3}>Option 3</ListItem>
-                    <ListItem index={4}>Option 4</ListItem>
-                    <ListItem index={5}>Option 5</ListItem>
-                    <ListItem index={6}>Option 6</ListItem>
+            {open && children && (
+                <List className={listClassName}>
+                    {children.map((item: React.ReactNode, idx: number) => (
+                        <ListItem index={idx}>{item}</ListItem>
+                    ))}
                 </List>
             )}
         </Wrapper>

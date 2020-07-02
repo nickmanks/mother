@@ -1,0 +1,13 @@
+.root--container {
+    display: flex;
+}
+
+.root--input {
+    margin-right: 1rem;
+    min-width: 50%;
+}
+
+.root--button {
+    margin-top: auto;
+    margin-right: 1rem;
+}

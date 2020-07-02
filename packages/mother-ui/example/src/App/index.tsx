@@ -1,19 +1,33 @@
 import React from 'react';
-import { Theme, Button, Container, Icon, Input } from 'mother-ui';
+import { Theme, Snackbar, Container, Button, Input, Dropdown } from 'mother-ui';
+import './index.css';
 
 const App: React.FC = () => (
     <Theme mode={'light'} layout={'cozy'}>
-        <Container>
+        <Snackbar
+            bottom
+            variant={'danger'}
+            delay={10000}
+            prepend={'AlertSolid'}
+        >
+            Snack bar alert for 10 seconds!
+        </Snackbar>
+        <Container className={'root--container'}>
             <Input
+                className={'root--input'}
                 label={'Search'}
                 prepend={'Search'}
                 placeholder={'Search the things'}
             />
-            <Button variant={'primary'}>Search</Button>
-            <Button variant={'secondary'} rounded prepend="AirplaneSolid">
-                Secondary Pill
+            <Button className={'root--button'} variant={'primary'}>
+                Search
             </Button>
-            <Icon name="Archive" size={40} />
+            <Dropdown className={'root--button'} title={'Select category'}>
+                <div>Option 1</div>
+                <div>Option 2</div>
+                <div>Option 3</div>
+                <div>Option 4</div>
+            </Dropdown>
         </Container>
     </Theme>
 );

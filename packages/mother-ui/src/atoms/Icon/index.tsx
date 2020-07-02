@@ -28,7 +28,14 @@ export interface Props extends React.HTMLAttributes<HTMLElement> {
     size?: number;
 }
 
-const Icon: React.FC<Props> = ({ theme, className, variant, name, size }) => {
+const Icon: React.FC<Props> = ({
+    theme,
+    className,
+    variant,
+    name,
+    size,
+    ...htmlElementProps
+}) => {
     return (
         <StyledIcon
             theme={theme}
@@ -36,6 +43,7 @@ const Icon: React.FC<Props> = ({ theme, className, variant, name, size }) => {
             variant={variant}
             name={name}
             size={size}
+            {...htmlElementProps}
         />
     );
 };

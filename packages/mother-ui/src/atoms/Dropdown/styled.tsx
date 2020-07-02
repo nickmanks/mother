@@ -7,7 +7,7 @@ import { shadows } from '../../theme/styles';
 
 const slideInLeft = keyframes`
     from {
-        transform: translate(-10rem,0);
+        transform: translate(-100%,0);
 		opacity: 0;
     }
 		
@@ -19,7 +19,7 @@ const slideInLeft = keyframes`
 
 const slideInTop = keyframes`
     from {
-        transform: translate(0,-10rem);
+        transform: translate(0,-100%);
         opacity: 0;
     }
 		
@@ -31,6 +31,7 @@ const slideInTop = keyframes`
 
 export const Wrapper = styled.div`
     display: inline-block;
+    position: relative;
 `;
 
 export const StyledButton = styled(({ open, ...props }) => (
@@ -45,19 +46,26 @@ export const StyledButton = styled(({ open, ...props }) => (
         transition: transform 0.1s linear;
         transform: ${({ open }) => (open ? 'rotateX(180deg)' : 'unset')};
         margin-top: 0;
+        font-size: 16px;
+    }
+
+    &:hover {
+        transform: ${({ open }) =>
+            open ? 'unset' : 'translate3d(0, -1px, 0)'};
     }
 `;
 
 export const List = styled.ul`
-    position: relative;
+    position: absolute;
     font-family: ${fontFamily};
     font-size: ${fonts.size.s3}px;
-    font-weight: ${fonts.weight.regular};
+    font-weight: ${fonts.weight.light};
     display: block;
     padding-inline-start: 2px;
     text-align: center;
     z-index: 1000;
-    min-width: 10rem;
+    width: auto;
+    min-width: 100%;
     margin: 0 0 0;
     font-size: 1rem;
     color: ${variants.dark.color};
@@ -70,7 +78,7 @@ export const List = styled.ul`
     padding-left: 0;
     border-top-right-radius: 0;
     border-top-left-radius: 0;
-    animation: ${slideInTop} 0.2s ease-in-out;
+    animation: ${slideInTop} 0.15s ease-in-out;
     animation-fill-mode: backwards;
 `;
 
@@ -80,9 +88,9 @@ type ItemProps = {
 
 export const ListItem = styled.li<ItemProps>`
     list-style: none;
-    animation: ${slideInLeft} 0.4s ease-in-out;
+    animation: ${slideInLeft} 0.25s ease-in-out;
     animation-fill-mode: backwards;
-    animation-delay: ${({ index }) => 0.1 + index * 0.02}s;
+    animation-delay: ${({ index }) => 0.1 + index * 0.03}s;
     cursor: pointer;
     padding: 1rem;
 
