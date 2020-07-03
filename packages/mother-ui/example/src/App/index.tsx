@@ -1,6 +1,25 @@
-import React from 'react';
-import { Theme, Snackbar, Container, Button, Input, Dropdown } from 'mother-ui';
+import React, { useState } from 'react';
+import {
+    Theme,
+    Snackbar,
+    Container,
+    Button,
+    Input,
+    Dropdown,
+    Modal,
+} from 'mother-ui';
 import './index.css';
+
+const ModalTrigger = () => {
+    const [open, setOpen] = useState(false);
+
+    return (
+        <>
+            <Button onClick={() => setOpen(true)}>Open Modal</Button>
+            <Modal open={open} onClose={() => setOpen(false)} />
+        </>
+    );
+};
 
 const App: React.FC = () => (
     <Theme mode={'light'} layout={'cozy'}>
@@ -29,6 +48,7 @@ const App: React.FC = () => (
                 <div>Option 4</div>
             </Dropdown>
         </Container>
+        <ModalTrigger />
     </Theme>
 );
 

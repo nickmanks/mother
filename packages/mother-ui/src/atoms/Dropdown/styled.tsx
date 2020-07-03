@@ -1,7 +1,7 @@
 import * as React from 'react';
 import styled, { keyframes } from 'styled-components';
 import Button from '../Button';
-import { variants, white, grey02 } from '../../theme/colors';
+import { variants, white, grey02, grey03 } from '../../theme/colors';
 import { fonts, fontFamily } from '../../theme/fonts';
 import { shadows } from '../../theme/styles';
 
@@ -41,6 +41,7 @@ export const StyledButton = styled(({ open, ...props }) => (
     border-bottom-right-radius: ${({ open }) => (open ? 0 : 5)}px;
     border-bottom-left-radius: ${({ open }) => (open ? 0 : 5)}px;
     z-index: 1001;
+    box-shadow: ${({ open }) => (open ? 'none' : shadows.small)};
 
     i {
         transition: transform 0.1s linear;
@@ -65,7 +66,7 @@ export const List = styled.ul`
     text-align: center;
     z-index: 1000;
     width: auto;
-    min-width: 100%;
+    min-width: calc(100% - 2px);
     margin: 0 0 0;
     font-size: 1rem;
     color: ${variants.dark.color};
@@ -80,6 +81,8 @@ export const List = styled.ul`
     border-top-left-radius: 0;
     animation: ${slideInTop} 0.15s ease-in-out;
     animation-fill-mode: backwards;
+    border: 1px solid ${grey03};
+    border-top: unset;
 `;
 
 type ItemProps = {

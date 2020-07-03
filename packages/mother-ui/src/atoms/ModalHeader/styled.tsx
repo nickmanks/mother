@@ -19,6 +19,6 @@ export const ModalHeader = styled.div`
 
 export const StyledIcon = styled(Icon)`
     color: ${variants.dark.color};
-    margin-top: 4px;
+    margin-top: 2px;
     cursor: pointer;
 `;
