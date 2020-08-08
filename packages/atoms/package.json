@@ -17,7 +17,7 @@
   "dependencies": {
     "chroma-js": "2.1.0",
     "lodash.uniqueid": "4.0.1",
-    "prismjs": "1.20.0"
+    "prismjs": "1.21.0"
   },
   "devDependencies": {
     "@babel/core": "7.10.2",
